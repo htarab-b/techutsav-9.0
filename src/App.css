@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kode+Mono:wght@400..700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 *
 {
   margin: 0;
@@ -31,7 +34,7 @@ section::before
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#000,#0f0,#000);
+  background: linear-gradient(#000,#0096FF,#000);
   animation: animate 5s linear infinite;
 }
 @keyframes animate 
@@ -55,54 +58,82 @@ section span
   z-index: 2;
   transition: 1.5s;
 }
-section span:hover 
-{
-  background: #0f0;
-  transition: 0s;
-}
 
-section .signin
+section .container
 {
   position: absolute;
-  width: 400px;
+  width: 95%;
+  height: 95%;
+  opacity: 85%;
   background: #222;  
   z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 40px;
   border-radius: 4px;
   box-shadow: 0 15px 35px rgba(0,0,0,9);
 }
-section .signin .content 
+section .container .content 
 {
   position: relative;
   width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   gap: 40px;
+  overflow: scroll;
 }
-section .signin .content h2 
+section .container .content::-webkit-scrollbar {
+  display: none;
+}
+section .container .content h1 
+{
+  font-size: 2.5em;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+section .container .content h1 .highlight
 {
   font-size: 2em;
-  color: #0f0;
+  font-family: "Josefin Sans", sans-serif;
+  color: #0096FF;
   text-transform: uppercase;
+  text-align: center;
 }
-section .signin .content .form 
+section .container .content h2 
+{
+  font-size: 2em;
+  font-family: "Jost", sans-serif;
+  color: #0096FF;
+  text-align: left;
+}
+section .container .content p
+{
+  font-size: 1.1em;
+  font-family: "Yantramanav", sans-serif;
+  color: #fff;
+  text-align: left;
+  margin-top: -30px;
+}
+section .container .content h3
+{
+  font-size: 1.5em;
+  color: #0096FF;
+  text-align: center;
+}
+section .container .content .form 
 {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-section .signin .content .form .inputBox
+section .container .content .form .inputBox
 {
   position: relative;
   width: 100%;
 }
-section .signin .content .form .inputBox input 
+section .container .content .form .inputBox input 
 {
   position: relative;
   width: 100%;
@@ -115,7 +146,7 @@ section .signin .content .form .inputBox input
   font-weight: 500;
   font-size: 1em;
 }
-section .signin .content .form .inputBox i 
+section .container .content .form .inputBox i 
 {
   position: absolute;
   left: 0;
@@ -125,34 +156,34 @@ section .signin .content .form .inputBox i
   transition: 0.5s;
   pointer-events: none;
 }
-.signin .content .form .inputBox input:focus ~ i,
-.signin .content .form .inputBox input:valid ~ i
+.container .content .form .inputBox input:focus ~ i,
+.container .content .form .inputBox input:valid ~ i
 {
   transform: translateY(-7.5px);
   font-size: 0.8em;
   color: #fff;
 }
-.signin .content .form .links 
+.container .content .form .links 
 {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.signin .content .form .links a 
+.container .content .form .links a 
 {
   color: #fff;
   text-decoration: none;
 }
-.signin .content .form .links a:nth-child(2)
+.container .content .form .links a:nth-child(2)
 {
-  color: #0f0;
+  color: #0096FF;
   font-weight: 600;
 }
-.signin .content .form .inputBox input[type="submit"]
+.container .content .form .inputBox input[type="submit"]
 {
   padding: 10px;
-  background: #0f0;
+  background: #0096FF;
   color: #000;
   font-weight: 600;
   font-size: 1.35em;
