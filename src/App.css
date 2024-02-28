@@ -71,7 +71,7 @@ section .container
   border-radius: 4px;
   box-shadow: 0 15px 35px rgba(0,0,0,9);
 }
-section .container .content 
+section .container .homecontent 
 {
   position: relative;
   width: 100%;
@@ -81,10 +81,10 @@ section .container .content
   gap: 40px;
   overflow: scroll;
 }
-section .container .content::-webkit-scrollbar {
+section .container .homecontent::-webkit-scrollbar {
   display: none;
 }
-section .container .content h1 
+section .container .homecontent h1 
 {
   font-size: 2.5em;
   font-family: "Josefin Sans", sans-serif;
@@ -92,7 +92,7 @@ section .container .content h1
   text-transform: uppercase;
   text-align: center;
 }
-section .container .content h1 .highlight
+section .container .homecontent h1 .highlight
 {
   font-size: 2em;
   font-family: "Josefin Sans", sans-serif;
@@ -100,14 +100,14 @@ section .container .content h1 .highlight
   text-transform: uppercase;
   text-align: center;
 }
-section .container .content h2 
+section .container .homecontent h2 
 {
   font-size: 2em;
   font-family: "Jost", sans-serif;
   color: #0096FF;
   text-align: left;
 }
-section .container .content p
+section .container .homecontent p
 {
   font-size: 1.1em;
   font-family: "Yantramanav", sans-serif;
@@ -115,25 +115,25 @@ section .container .content p
   text-align: left;
   margin-top: -30px;
 }
-section .container .content h3
+section .container .homecontent h3
 {
   font-size: 1.5em;
   color: #0096FF;
   text-align: center;
 }
-section .container .content .form 
+section .container .homecontent .form 
 {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-section .container .content .form .inputBox
+section .container .homecontent .form .inputBox
 {
   position: relative;
   width: 100%;
 }
-section .container .content .form .inputBox input 
+section .container .homecontent .form .inputBox input 
 {
   position: relative;
   width: 100%;
@@ -146,7 +146,7 @@ section .container .content .form .inputBox input
   font-weight: 500;
   font-size: 1em;
 }
-section .container .content .form .inputBox i 
+section .container .homecontent .form .inputBox i 
 {
   position: absolute;
   left: 0;
@@ -156,31 +156,31 @@ section .container .content .form .inputBox i
   transition: 0.5s;
   pointer-events: none;
 }
-.container .content .form .inputBox input:focus ~ i,
-.container .content .form .inputBox input:valid ~ i
+.container .homecontent .form .inputBox input:focus ~ i,
+.container .homecontent .form .inputBox input:valid ~ i
 {
   transform: translateY(-7.5px);
   font-size: 0.8em;
   color: #fff;
 }
-.container .content .form .links 
+.container .homecontent .form .links 
 {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.container .content .form .links a 
+.container .homecontent .form .links a 
 {
   color: #fff;
   text-decoration: none;
 }
-.container .content .form .links a:nth-child(2)
+.container .homecontent .form .links a:nth-child(2)
 {
   color: #0096FF;
   font-weight: 600;
 }
-.container .content .form .inputBox input[type="submit"]
+.container .homecontent .form .inputBox input[type="submit"]
 {
   padding: 10px;
   background: #0096FF;
