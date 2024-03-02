@@ -27,6 +27,7 @@ section
   gap: 2px;
   flex-wrap: wrap;
   overflow: hidden;
+  background-color: #000;
 }
 section::before 
 {
@@ -62,8 +63,8 @@ section span
 section .container
 {
   position: absolute;
-  width: 95%;
-  height: 95%;
+  width: 98%;
+  height: 98%;
   opacity: 85%;
   background: #222;  
   z-index: 1000;
@@ -83,6 +84,34 @@ section .container .homecontent
 }
 section .container .homecontent::-webkit-scrollbar {
   display: none;
+}
+section .container .homecontent .images {
+  display: flex;
+  align-items: center;
+}
+
+.images img {
+  height: auto;
+}
+
+.srmlogo {
+  width: 27%; /* Set a specific width for the center image */
+  margin-left: 4%;
+  margin-right: 6%;
+}
+
+/* Adjust the order property if needed */
+.techutsavlogo {
+  width: 32%; /* Set a specific width for the left image */
+}
+
+.infernologo {
+  width: 7%; /* Set a specific width for the first right image */
+  margin-right: 2%;
+}
+
+.lwlogo {
+  width: 21%; /* Set a specific width for the second right image */
 }
 section .container .homecontent h1 
 {
@@ -115,84 +144,34 @@ section .container .homecontent p
   text-align: left;
   margin-top: -30px;
 }
+section .container .homecontent p .highlight
+{
+  font-size: 150%;
+  font-family: "Josefin Sans", sans-serif;
+  color: #0096FF;
+  text-transform: uppercase;
+  text-align: center;
+}
+section .container .homecontent p .subheading
+{
+  font-size: 120%;
+  color: #0096FF;
+}
 section .container .homecontent h3
 {
   font-size: 1.5em;
   color: #0096FF;
   text-align: center;
 }
-section .container .homecontent .form 
+section .container .homecontent a h4
 {
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-section .container .homecontent .form .inputBox
-{
-  position: relative;
-  width: 100%;
-}
-section .container .homecontent .form .inputBox input 
-{
-  position: relative;
-  width: 100%;
-  background: #333;
-  border: none;
-  outline: none;
-  padding: 25px 10px 7.5px;
-  border-radius: 4px;
-  color: #fff;
-  font-weight: 500;
-  font-size: 1em;
-}
-section .container .homecontent .form .inputBox i 
-{
-  position: absolute;
-  left: 0;
-  padding: 15px 10px;
-  font-style: normal;
-  color: #aaa;
-  transition: 0.5s;
-  pointer-events: none;
-}
-.container .homecontent .form .inputBox input:focus ~ i,
-.container .homecontent .form .inputBox input:valid ~ i
-{
-  transform: translateY(-7.5px);
-  font-size: 0.8em;
-  color: #fff;
-}
-.container .homecontent .form .links 
-{
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.container .homecontent .form .links a 
-{
-  color: #fff;
-  text-decoration: none;
-}
-.container .homecontent .form .links a:nth-child(2)
-{
+  font-size: 2em;
   color: #0096FF;
-  font-weight: 600;
-}
-.container .homecontent .form .inputBox input[type="submit"]
-{
-  padding: 10px;
-  background: #0096FF;
-  color: #000;
-  font-weight: 600;
-  font-size: 1.35em;
-  letter-spacing: 0.05em;
-  cursor: pointer;
-}
-input[type="submit"]:active
-{
-  opacity: 0.6;
+  text-transform: uppercase;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000;
 }
 @media (max-width: 900px)
 {
@@ -493,4 +472,106 @@ section .container .bootdey {
 
 section .container .bootdey::-webkit-scrollbar {
   display: none;
+}
+
+/* Register */
+section .container .registercontent 
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow: scroll;
+}
+section .container .registercontent h1 
+{
+  font-size: 2em;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+section .container .registercontent h1 .highlight
+{
+  font-size: 150%;
+  font-family: "Josefin Sans", sans-serif;
+  color: #0096FF;
+  text-transform: uppercase;
+  text-align: center;
+}
+section .container .registercontent .form 
+{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+section .container .registercontent .form .inputBox
+{
+  position: relative;
+  width: 100%;
+}
+section .container .registercontent .form .inputBox input 
+{
+  position: relative;
+  width: 100%;
+  background: #333;
+  border: none;
+  outline: none;
+  padding: 25px 10px 7.5px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1em;
+}
+section .container .registercontent .form .inputBox i 
+{
+  position: absolute;
+  left: 0;
+  padding: 15px 10px;
+  font-style: normal;
+  color: #aaa;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.container .registercontent .form .inputBox input:focus ~ i,
+.container .registercontent .form .inputBox input:valid ~ i
+{
+  transform: translateY(-7.5px);
+  font-size: 0.8em;
+  color: #fff;
+}
+.container .registercontent .form .links 
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container .registercontent .form .links a 
+{
+  color: #fff;
+  text-decoration: none;
+}
+.container .registercontent .form .links a:nth-child(2)
+{
+  color: #0096FF;
+  font-weight: 600;
+}
+.container .registercontent .form .inputBox input[type="submit"]
+{
+  padding: 10px;
+  background: #0096FF;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.35em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  width: 120px;
+}
+input[type="submit"]:active
+{
+  opacity: 0.6;
 }

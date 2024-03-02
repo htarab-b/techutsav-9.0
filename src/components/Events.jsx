@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Events = () => {
     return (
@@ -27,7 +28,7 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="">
-                                                    <button className="btn">Register</button>
+                                                    <Link to={"../register/techno%20strom"}><button className="btn">Register</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -47,7 +48,7 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="">
-                                                    <button className="btn">Register</button>
+                                                    <Link to={"../register/data%20dynamo"}><button className="btn">Register</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -67,7 +68,7 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="">
-                                                    <button className="btn">Register</button>
+                                                    <Link to={"../register/infographics"}><button className="btn">Register</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -87,7 +88,7 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="">
-                                                    <button className="btn">Register</button>
+                                                    <Link to={"../register/pixellno"}><button className="btn">Register</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -107,7 +108,7 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="">
-                                                    <button className="btn">Register</button>
+                                                    <Link to={"../register/buss%20burst"}><button className="btn">Register</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -127,7 +128,7 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="">
-                                                    <button className="btn">Register</button>
+                                                    <Link to={"../register/byte%20battle"}><button className="btn">Register</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -147,7 +148,7 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="">
-                                                    <button className="btn">Register</button>
+                                                    <Link to={"../register/cyber%20giggles"}><button className="btn">Register</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -167,7 +168,7 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="">
-                                                    <button className="btn">Register</button>
+                                                    <Link to={"../register/virtual%20silhouette"}><button className="btn">Register</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -187,7 +188,7 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="">
-                                                    <button className="btn">Register</button>
+                                                    <Link to={"../register/bug%20busters"}><button className="btn">Register</button></Link>
                                                 </div>
                                             </div>
                                         </div>

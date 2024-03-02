@@ -10,7 +10,7 @@ const router = createBrowserRouter(
     <Route path="/">
       <Route path="/" element={<Home />} />
       <Route path="/events" element={<Events />} />
-      <Route path="/register" element={<Register />} />
+      <Route path="/register/:eventName" element={<Register />} />
     </Route>
   )
 );
