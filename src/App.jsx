@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import Home from './components/Home';
 import './App.css';
+import Register from './components/Register';
 import Events from './components/Events';
 
 const router = createBrowserRouter(
