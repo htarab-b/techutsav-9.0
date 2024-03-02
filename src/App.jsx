@@ -1,14 +1,17 @@
 import React from 'react';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import EventsPage from './pages/EventsPage';
+import Home from './components/Home';
 import './App.css';
+import Events from './components/Events';
 
 const router = createBrowserRouter(
-  createRoutesFromElements([
-    <Route path="/" element={<HomePage />} />,
-    <Route path="/events" element={<EventsPage />} />
-  ])
+  createRoutesFromElements(
+    <Route path="/">
+      <Route path="/" element={<Home />} />
+      <Route path="/events" element={<Events />} />
+      <Route path="/register" element={<Register />} />
+    </Route>
+  )
 );
 
 function App() {
