@@ -1,0 +1,275 @@
+.hero__video_bg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__video_loop {
+  width: 100%;
+}
+
+.header__left img {
+  position: relative;
+}
+
+.header__head {
+  width: 100%;
+  position: fixed;
+  padding: 20px 0px;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.293);
+  backdrop-filter: blur(10px);
+}
+
+.header__right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header__btn {
+  height: 50px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: var(--primary);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid var(--accent);
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.header__btn .icon {
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__btn:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.header__btn:hover .icon {
+  transform: translate(4px);
+}
+
+.header__btn:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.header__btn::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+.section__panel {
+  padding: 80px 0px;
+}
+
+.section__content {
+  padding: 20px 0px;
+}
+
+.section__panel .section__title_h1 {
+  text-align: center;
+  font-weight: 800;
+}
+
+.section__panel .section__content .section_about_tu_img img {
+  width: 90%;
+}
+
+.section__panel .section__content .section_about_tu_text p {
+  text-align: justify;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 200px !important;
+  text-align: center;
+  font-size: 18px;
+  background: var(--accent);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-container div {
+  width: 150px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border: solid 2px black;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+
+.grid-container div:hover img {
+  filter: grayscale(0);
+}
+
+.grid-container div:hover {
+  border-color: var(--accent);
+}
+
+.grid-container div img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+
+.grid-container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
+}
+
+.about__dept_card {
+  width: 100%;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.about__dept_card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.about__dept_card:hover .about__dept_card-inner {
+  transform: rotateY(180deg);
+}
+
+.about__dept_card-front,
+.about__dept_card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.about__dept_card-front {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+.about__dept_card-back {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+.ftco-section {
+  padding: 12em 0;
+}
+.ftco-section h2 {
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 7em 0;
+}
+
+.footer-07 {
+  background: #121212;
+}
+.footer-07 a {
+  color: #a3de83;
+}
+.footer-07 p {
+  color: rgba(255, 255, 255, 0.3);
+}
+.footer-07 .footer-heading {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.footer-07 .footer-heading .logo {
+  color: #fff;
+}
+.footer-07 .menu {
+  margin-bottom: 30px;
+}
+.footer-07 .menu a {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.footer-07 .ftco-footer-social li a {
+  background: transparent;
+  border: 1px solid #a3de83;
+}
