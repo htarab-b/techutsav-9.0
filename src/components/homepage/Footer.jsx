@@ -5,7 +5,6 @@ import { FaHeart } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="footer-07">
       <Container>
         <Row className="justify-content-center">
           <Col md={12} className="text-center">
@@ -30,7 +29,6 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-    </footer>
   );
 }
 
