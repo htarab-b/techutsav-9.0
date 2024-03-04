@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import tulogo from '../../assets/TechUtsav Logo.png';
 import '../../css/Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [isActive, setIsActive] = useState(false);
@@ -29,10 +30,10 @@ const Header = () => {
                 <Container>
                     <Row>
                         <Col md={8} className={`header__left ${isActive ? 'active' : ''}`}>
-                            <img src={tulogo} width={300} alt="TechUtsav Logo" />
+                            <img src={tulogo} width={300} alt="TechUtsav" />
                         </Col>
                         <Col md={4} className='header__right'>
-                            <button className="header__btn">
+                            <Link to={"./events"}><button className="header__btn">
                                 Events
                                 <svg fill="currentColor" viewBox="0 0 24 24" className="icon">
                                     <path
@@ -41,7 +42,7 @@ const Header = () => {
                                         fillRule="evenodd"
                                     ></path>
                                 </svg>
-                            </button>
+                            </button></Link>
                         </Col>
                     </Row>
                 </Container>

@@ -18,7 +18,7 @@ const AboutTu = () => {
                         </Col> */}
                         <Col md={12} className='section_about_tu_text'>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem enim, ornare non fringilla sit amet, egestas vehicula eros. Quisque ultrices augue vel est tincidunt, eget tempus elit volutpat. Sed vel cursus neque. Integer sed cursus justo. Nam scelerisque tincidunt ante, tristique condimentum elit ornare in. Phasellus semper mollis turpis, non dapibus enim convallis nec. Mauris pulvinar, justo sed tincidunt ullamcorper, lacus mauris eleifend lacus, vel consectetur nisi dui ut urna. Nulla ac tortor odio. Vestibulum mollis in ipsum non dictum. Vestibulum egestas egestas facilisis. Nam tempor enim at quam hendrerit, et aliquam magna tempus. Nunc in lacus egestas, blandit quam et, facilisis dolor. Curabitur sit amet sem velit. Nam sed pharetra odio. Aliquam consectetur leo metus, eget varius velit feugiat quis. Fusce in tincidunt risus.
+                                Tech Utsav, an inter-collegiate Technical Symposium, is set to ignite the sparks of innovation and celebrate the spirit of technology. Organized by two dynamic clubs, Club Inferno and Live Wires, from the prestigious <strong class="highlight">SRM Institute of Science and Technology (SRMIST)</strong>, this event is a convergence of brilliance, curiosity, and cutting-edge technology.
                             </p>
 
                         </Col>

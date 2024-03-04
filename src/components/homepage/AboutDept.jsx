@@ -21,7 +21,7 @@ const AboutDept = () => {
                 </div>
                 <div className="about__dept_card-back">
                   <img src={infernoLogo} width={100} />
-                  <p>Club Inferno</p>
+                  <p> Club Inferno</p>
                 </div>
               </div>
             </div>
@@ -34,8 +34,8 @@ const AboutDept = () => {
                   <p>Department of Computer Applications</p>
                 </div>
                 <div className="about__dept_card-back">
-                  <img src={liveWireLogo} width={100} />
-                  <p>Livewire</p>
+                  <img src={liveWireLogo} width={250} />
+                  <p> Livewires</p>
                 </div>
               </div>
             </div>

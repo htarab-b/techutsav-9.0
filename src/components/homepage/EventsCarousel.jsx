@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Container, Col, Row } from 'react-bootstrap'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import { Link } from 'react-router-dom';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -17,7 +17,7 @@ export default function App() {
         <Container>
           <Row>
             <Col><h1 className='section__title_h1'>
-              Events
+              <Link to={"./events"}>Events</Link>
             </h1></Col>
           </Row>
           <Row className='section__content event__carousel'>
@@ -37,22 +37,22 @@ export default function App() {
                 }}
                 loop={true}
                 autoplay={{
-                  delay: 2000,
+                  delay: 3000,
                   disableOnInteraction: false,
                 }}
                 modules={[Autoplay, EffectCoverflow]}
                 className="mySwiper"
 
               >
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+                <Link to={"./register/techno%20strom"}><SwiperSlide className='technostrom'>TECHNO STROM</SwiperSlide></Link>
+                <Link to={"./register/data%20dynamo"}><SwiperSlide className='datadynamo'>DATA DYNAMO</SwiperSlide></Link>
+                <Link to={"./register/infographics"}><SwiperSlide className='infographics'>INFOGRAPHICS</SwiperSlide></Link>
+                <Link to={"./register/pixellno"}><SwiperSlide className='pixellno'>PIXELLNO</SwiperSlide></Link>
+                <Link to={"./register/buss%20burst"}><SwiperSlide className='bussburst'>BUSS BURST</SwiperSlide></Link>
+                <Link to={"./register/byte%20battle"}><SwiperSlide className='bytebattle'>BYTE BATTLE</SwiperSlide></Link>
+                <Link to={"./register/cyber%20giggles"}><SwiperSlide className='cybergiggles'>CYBER GIGGLES</SwiperSlide></Link>
+                <Link to={"./register/virtual%20silhouette"}><SwiperSlide className='virtualsilhouette'>VIRTUAL SILHOUETTE</SwiperSlide></Link>
+                <Link to={"./register/bug%20busters"}><SwiperSlide className='bugbusters'>BUG BUSTERS</SwiperSlide></Link>
               </Swiper>
             </Col>
           </Row>

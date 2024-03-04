@@ -7,7 +7,7 @@ const Events = () => {
             <div className="container">
                 <div className="bootdey">
                     <h1>EVENTS</h1>
-                    <div className="row gutters">
+                    <div className="row_gutters">
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div className="card">
                                 <div className="card-body">

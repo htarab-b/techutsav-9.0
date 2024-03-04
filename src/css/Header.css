@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kode+Mono:wght@400..700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .hero__video_bg {
   width: 100%;
   display: flex;
@@ -36,6 +44,11 @@
   display: flex;
   justify-content: end;
   align-items: center;
+}
+
+.header__right a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .header__btn {
@@ -119,8 +132,17 @@
 }
 
 .section__panel .section__title_h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #0096FF;
   text-align: center;
-  font-weight: 800;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.section__panel .section__title_h1 a {
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: #0096FF;
 }
 
 .section__panel .section__content .section_about_tu_img img {
@@ -131,18 +153,26 @@
   text-align: justify;
 }
 
+.section__panel .section__content .section_about_tu_text p .highlight {
+  font-size: 150%;
+  font-family: "Josefin Sans", sans-serif;
+  color: #0096FF;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .mySwiper {
   width: 100%;
 }
 
 .swiper-slide {
-  visibility: hidden;
   background-position: center;
   background-size: cover;
   height: 300px !important;
   text-align: center;
   font-size: 18px;
-  background: var(--accent);
+  background: #1379bb;
+  color: #000;
   border-radius: 10px;
 }
 
@@ -242,6 +272,12 @@
   justify-content: center;
   font-size: 24px;
   transform: rotateY(180deg);
+  background: #232323;
+}
+.about__dept_card-back p {
+  margin-left: 10px;
+  margin-top: 10px;
+  opacity: 100%;
 }
 
 .ftco-section {
