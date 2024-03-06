@@ -127,7 +127,7 @@ header{
 }
 
 .section__panel {
-  padding: 150px 0px 0px;
+  padding: 80px 0px 0px;
 }
 
 .section__content {
@@ -169,6 +169,7 @@ header{
 }
 
 .swiper-slide {
+  visibility: hidden;
   background-position: center;
   background-size: cover;
   height: 300px !important;
@@ -290,3 +291,60 @@ header{
   margin-top: 10px;
   opacity: 100%;
 }
+<<<<<<< HEAD
+=======
+
+.ftco-section {
+  padding: 12em 0;
+}
+.ftco-section h2 {
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 7em 0;
+}
+
+.footer-07 {
+  background: #121212;
+}
+.footer-07 a {
+  color: #a3de83;
+}
+.footer-07 p {
+  color: rgba(255, 255, 255, 0.3);
+}
+.footer-07 .footer-heading {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.footer-07 .footer-heading .logo {
+  color: #fff;
+}
+.footer-07 .menu {
+  margin-bottom: 30px;
+}
+.footer-07 .menu a {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.socials .ftco-footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.socials .ftco-animate {
+  font-size: 40px; /* Change this value to adjust the size of the icons */
+  color: #000; /* Change this value to set the color of the icons */
+  margin-right: 10px; /* Adjust the margin between icons if needed */
+}
+.footer-07 .ftco-footer-social li a {
+  background: transparent;
+  border: 1px solid #a3de83;
+}
+>>>>>>> b8e5e20520bdc29cbd85ad84f35589d004544e87
