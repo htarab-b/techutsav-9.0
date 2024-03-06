@@ -16,7 +16,7 @@ export default function App() {
       <div className='section__panel'>
         <Container>
           <Row>
-            <Col><h1 className='section__title_h1'>
+            <Col><h1>
               <Link to={"./events"}>Events</Link>
             </h1></Col>
           </Row>
@@ -26,8 +26,7 @@ export default function App() {
                 effect={'coverflow'}
                 grabCursor={true}
                 centeredSlides={true}
-             
-              slidesPerView={'4'}
+                slidesPerView={'4'}
                 coverflowEffect={{
                   rotate: 10,
                   stretch: 0,

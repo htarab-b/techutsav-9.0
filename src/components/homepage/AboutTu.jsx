@@ -8,7 +8,7 @@ const AboutTu = () => {
             <div className='section__panel'>
                 <Container>
                     <Row>
-                        <Col><h1 className='section__title_h1'>
+                        <Col><h1>
                             About TechUtsav 9.0
                         </h1></Col>
                     </Row>

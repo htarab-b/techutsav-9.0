@@ -1,34 +1,37 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { IoLogoTwitter, IoLogoFacebook, IoLogoInstagram } from 'react-icons/io';
+import { AiFillInstagram } from "react-icons/ai";
 import { FaHeart } from 'react-icons/fa';
+import '../../css/Footer.css'
 
 const Footer = () => {
   return (
+    <footer>
       <Container>
-        <Row className="justify-content-center">
-          <Col md={12} className="text-center">
-            <h2 className="footer-heading"><a href="#" className="logo">TechUtsav 9.0</a></h2>
-            <p className="menu">
+        <Row>
+          <Col md={12} className='d-flex flex-column align-items-center justify-content-center'>
+            <h1 className="footer__head"><a href="#" className="logo">TechUtsav 9.0</a></h1>
+            <span className="footer__menu">
               <a href="#">Home</a>
               <a href="#">Events</a>
               <a href="#">About</a>
-            </p>
-            <ul className="ftco-footer-social p-0">
-              <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><IoLogoTwitter /></a></li>
-              <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><IoLogoFacebook /></a></li>
-              <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><IoLogoInstagram /></a></li>
+            </span>
+            <ul className="footer__social_container">
+              <li className="footer__social_icon"><a href="#"><AiFillInstagram /></a></li>
+              <li className="footer__social_icon"><a href="#"><IoLogoFacebook /></a></li>
+              <li className="footer__social_icon"><a href="#"><IoLogoFacebook /></a></li>
             </ul>
           </Col>
         </Row>
-        <Row className="mt-5">
-          <Col md={12} className="text-center">
-            <p className="copyright">
-              Copyright ©{new Date().getFullYear()} All rights reserved | This webiste is made with <FaHeart /> by <a href="#" target="_blank">Devlopers</a>
-            </p>
+        <Row className="mt-4">
+          <Col md={12} className="footer__bottom">
+            <span className="footer__bottom_copyright">
+               ©{new Date().getFullYear()} TechUtsav 9.0 <span>This webiste is made with <FaHeart /> by <span className='footer__bottom_copy_bold'>Tech Team</span></span>
+            </span>
           </Col>
         </Row>
       </Container>
+    </footer>
   );
 }
 

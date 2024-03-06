@@ -4,11 +4,23 @@
   --primary: #5627ce;
   --secondary: #f9f8fc;
   --accent: #6441a4;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 body {
   background-color: var(--background) !important;
   color: var(--text) !important;
   scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+
+h1{
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  text-align: center;
+  color: var(--primary) !important;
 }
