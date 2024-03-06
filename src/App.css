@@ -35,7 +35,7 @@ section::before
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#000,#0096FF,#000);
+  background: linear-gradient(#000,var(--primary),#000);
   animation: animate 5s linear infinite;
 }
 @keyframes animate 
@@ -125,7 +125,7 @@ section .container .homecontent h1 .highlight
 {
   font-size: 2em;
   font-family: "Josefin Sans", sans-serif;
-  color: #0096FF;
+  color: var(--primary);
   text-transform: uppercase;
   text-align: center;
 }
@@ -133,7 +133,7 @@ section .container .homecontent h2
 {
   font-size: 2em;
   font-family: "Jost", sans-serif;
-  color: #0096FF;
+  color: var(--primary);
   text-align: left;
 }
 section .container .homecontent p
@@ -148,26 +148,26 @@ section .container .homecontent p .highlight
 {
   font-size: 150%;
   font-family: "Josefin Sans", sans-serif;
-  color: #0096FF;
+  color: var(--primary);
   text-transform: uppercase;
   text-align: center;
 }
 section .container .homecontent p .subheading
 {
   font-size: 120%;
-  color: #0096FF;
+  color: var(--primary);
 }
 section .container .homecontent h3
 {
   font-size: 1.5em;
-  color: #0096FF;
+  color: var(--primary);
   text-align: center;
 }
 section .container .homecontent a h4
 {
   display: flex;
   font-size: 2em;
-  color: #0096FF;
+  color: var(--primary);
   text-transform: uppercase;
   justify-content: center;
   padding: 20px;
