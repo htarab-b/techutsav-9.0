@@ -4,6 +4,7 @@ import './App.css';
 import Register from './components/Register';
 import EventPage from './pages/EventsPage';
 import HomePage from './pages/HomePage';
+import SuccessPage from './pages/SuccessPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -11,6 +12,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<HomePage />} />
       <Route path="/events" element={<EventPage />} />
       <Route path="/register/:eventName" element={<Register />} />
+      <Route path="/success" element={<SuccessPage />} />
     </Route>
   )
 );

@@ -18,8 +18,8 @@ const Footer = () => {
             </span>
             <ul className="footer__social_container">
               <li className="footer__social_icon"><a href="#"><AiFillInstagram /></a></li>
-              <li className="footer__social_icon"><a href="#"><IoLogoFacebook /></a></li>
-              <li className="footer__social_icon"><a href="#"><IoLogoFacebook /></a></li>
+              <li className="footer__social_icon"><a href="#"><AiFillInstagram /></a></li>
+              <li className="footer__social_icon"><a href="#"><AiFillInstagram /></a></li>
             </ul>
           </Col>
         </Row>
