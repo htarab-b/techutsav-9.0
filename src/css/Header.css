@@ -124,7 +124,7 @@ body::-webkit-scrollbar {
 }
 
 .section__panel {
-  padding: 150px 0px 0px;
+  padding: 80px 0px 0px;
 }
 
 .section__content {
@@ -166,6 +166,7 @@ body::-webkit-scrollbar {
 }
 
 .swiper-slide {
+  visibility: hidden;
   background-position: center;
   background-size: cover;
   height: 300px !important;
@@ -317,6 +318,17 @@ footer {
   margin: 0 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+.socials .ftco-footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.socials .ftco-animate {
+  font-size: 40px; /* Change this value to adjust the size of the icons */
+  color: #000; /* Change this value to set the color of the icons */
+  margin-right: 10px; /* Adjust the margin between icons if needed */
 }
 .footer-07 .ftco-footer-social li a {
   background: transparent;

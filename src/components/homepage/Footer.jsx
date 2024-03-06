@@ -14,11 +14,13 @@ const Footer = () => {
               <a href="#">Events</a>
               <a href="#">About</a>
             </p>
-            <ul className="ftco-footer-social p-0">
-              <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><IoLogoTwitter /></a></li>
-              <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><IoLogoFacebook /></a></li>
-              <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><IoLogoInstagram /></a></li>
-            </ul>
+            <div className="socials">
+              <ul className="ftco-footer-social p-0">
+                <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><IoLogoTwitter /></a></li>
+                <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><IoLogoFacebook /></a></li>
+                <li className="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><IoLogoInstagram /></a></li>
+              </ul>
+            </div>
           </Col>
         </Row>
         <Row className="mt-5">
