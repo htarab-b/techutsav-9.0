@@ -81,6 +81,9 @@ section .container .homecontent
   flex-direction: column;
   gap: 40px;
   overflow: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 section .container .homecontent::-webkit-scrollbar {
   display: none;
@@ -117,7 +120,7 @@ section .container .homecontent h1
 {
   font-size: 2.5em;
   font-family: "Josefin Sans", sans-serif !important;
-  color: #fff;
+  color: #fff !important;
   text-transform: uppercase;
   text-align: center;
 }
@@ -163,15 +166,33 @@ section .container .homecontent h3
   color: var(--primary);
   text-align: center;
 }
-section .container .homecontent a h4
+section .container .homecontent a
 {
   display: flex;
-  font-size: 2em;
-  color: var(--primary);
-  text-transform: uppercase;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
+}
+section .container .homecontent a :hover
+{
+  transform: scale(1.1);
+  color: var(--primary);
   background-color: #000;
+  border: solid 2px var(--primary);
+}
+section .container .homecontent a h4
+{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--primary);
+  color: #000;
+  margin-bottom: 0px;
+  font-family: "Josefin Sans", sans-serif !important;
+  border: solid 2px #000;
+  transition: transform 0.7s ease-out;
 }
 @media (max-width: 900px)
 {
