@@ -126,6 +126,17 @@ header{
   }
 }
 
+.section__panel h1 {
+  font-family: "Josefin Sans", sans-serif !important;
+  text-transform: uppercase;
+}
+
+.section__panel a {
+  font-family: "Josefin Sans", sans-serif !important;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
 .section__panel {
   padding: 80px 0px 0px;
 }
@@ -154,14 +165,16 @@ header{
 
 .section__panel .section__content .section_about_tu_text p {
   text-align: justify;
+  font-size: 1em;
 }
 
 .section__panel .section__content .section_about_tu_text p .highlight {
   font-size: 150%;
-  font-family: "Josefin Sans", sans-serif;
-  color: #0096ff;
+  font-family: "Josefin Sans", sans-serif !important;
+  color: var(--primary);
   text-transform: uppercase;
   text-align: center;
+  line-height: 40px;
 }
 
 .mySwiper {
@@ -291,8 +304,6 @@ header{
   margin-top: 10px;
   opacity: 100%;
 }
-<<<<<<< HEAD
-=======
 
 .ftco-section {
   padding: 12em 0;
@@ -347,4 +358,3 @@ footer {
   background: transparent;
   border: 1px solid #a3de83;
 }
->>>>>>> b8e5e20520bdc29cbd85ad84f35589d004544e87
