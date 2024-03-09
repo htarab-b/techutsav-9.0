@@ -207,14 +207,16 @@ header {
 
 .section__panel .section__content .section_about_tu_text p {
   text-align: justify;
+  font-size: 1em;
 }
 
 .section__panel .section__content .section_about_tu_text p .highlight {
   font-size: 150%;
-  font-family: "Josefin Sans", sans-serif;
-  color: #0096ff;
+  font-family: "Josefin Sans", sans-serif !important;
+  color: var(--primary);
   text-transform: uppercase;
   text-align: center;
+  line-height: 40px;
 }
 
 .grid-container {

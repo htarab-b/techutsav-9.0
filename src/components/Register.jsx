@@ -30,22 +30,19 @@ function Register() {
                 target="hidden_iframe"
                 onSubmit={() => setSubmitted(true)}
               >
+              <input type="hidden" name="entry.276494256" value={eventName} />{" "}
                 <div className="form">
-                  <div className="inputBox">
-                    <input type="text" name="entry.276494256" required />{" "}
-                    <i>Event</i>
-                  </div>
                   <div className="inputBox">
                     <input type="text" name="entry.2114207288" required />{" "}
                     <i>College Name</i>
                   </div>
                   <div className="inputBox">
                     <input type="text" name="entry.2092238618" required />{" "}
-                    <i>Team Members</i>
+                    <i>Team Members (Use commas to separate multiple Names)</i>
                   </div>
                   <div className="inputBox">
                     <input type="text" name="entry.481760380" required />{" "}
-                    <i>College Registration Numbers</i>
+                    <i>College Registration Numbers (Use commas to separate multiple Numbers)</i>
                   </div>
                   <div className="inputBox">
                     <input type="text" name="entry.1990457520" required />{" "}
@@ -57,10 +54,10 @@ function Register() {
                   </div>
                   <div className="inputBox">
                     <input type="text" name="entry.1288286291" required />{" "}
-                    <i>Whatsapp Number</i>
+                    <i>Whatsapp Number (Use commas to separate multiple Numbers)</i>
                   </div>
                   <div className="inputBox">
-                    <input type="submit" value="submit" />
+                    <input type="submit" className="header__btn" value="SUBMIT" />
                   </div>
                 </div>
               </form>
