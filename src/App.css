@@ -589,6 +589,29 @@ section .container .registercontent .form .inputBox input
   font-weight: 500;
   font-size: 1em;
 }
+section .container .registercontent .form .inputBox select 
+{
+  width: 40%;
+  background: #333;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1em;
+  padding-right: 10px;
+}
+section .container .registercontent .form .inputBox label
+{
+  position: absolute;
+  left: 10px;
+  padding: 10px;
+  font-style: normal;
+  color: #aaa;
+  transition: 0.5s;
+  pointer-events: none;
+}
 section .container .registercontent .form .inputBox input[type="text"]
 {
   left: 10px;
@@ -632,6 +655,7 @@ section .container .registercontent .form .inputBox i
 .container .registercontent .form .inputBox input[type="submit"]
 {
   padding: 10px;
+  margin-bottom: 40px;
   background: #0096FF;
   color: #000;
   font-weight: 600;

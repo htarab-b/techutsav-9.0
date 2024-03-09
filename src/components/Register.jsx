@@ -7,6 +7,14 @@ function Register() {
   const { eventName } = useParams();
   const [submitted, setSubmitted] = useState(false);
 
+  const [NumParticipants, setNumParticipants] = useState(1);
+  const changeNumParticipants = (e) => {
+    setNumParticipants(parseInt(e.target.value, 10));
+  }
+
+  const participantentryname = ["entry.2092238618", "entry.804971439", "entry.1322358781", "entry.1559571549"]
+  const participantentryreg = ["entry.481760380", "entry.771109477", "entry.2125764197", "entry.1599994719"]
+
   return (
     <>
 
@@ -37,13 +45,26 @@ function Register() {
                     <i>College Name</i>
                   </div>
                   <div className="inputBox">
-                    <input type="text" name="entry.2092238618" required />{" "}
-                    <i>Team Members (Use commas to separate multiple Names)</i>
+                    <label>Participants</label>
+                    <select id="participant_count" onChange={changeNumParticipants}>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                    </select>
                   </div>
-                  <div className="inputBox">
-                    <input type="text" name="entry.481760380" required />{" "}
-                    <i>College Registration Numbers (Use commas to separate multiple Numbers)</i>
-                  </div>
+                  {[...Array(NumParticipants)].map((_, index) => (
+                    <div key={index}>
+                      <div className="inputBox">
+                        <input type="text" name={participantentryname[index]} required />
+                        <i>{`Participant ${index + 1} Name`}</i>
+                      </div>
+                      <div className="inputBox">
+                        <input type="text" name={participantentryreg[index]} required />
+                        <i>{`Participant ${index + 1} Registration Number`}</i>
+                      </div>
+                    </div>
+                  ))}
                   <div className="inputBox">
                     <input type="text" name="entry.1990457520" required />{" "}
                     <i>Degree</i>
@@ -54,7 +75,7 @@ function Register() {
                   </div>
                   <div className="inputBox">
                     <input type="text" name="entry.1288286291" required />{" "}
-                    <i>Whatsapp Number (Use commas to separate multiple Numbers)</i>
+                    <i>Whatsapp Number</i>
                   </div>
                   <div className="inputBox">
                     <input type="submit" className="header__btn" value="SUBMIT" />
