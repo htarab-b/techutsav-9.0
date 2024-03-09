@@ -10,6 +10,8 @@ import 'swiper/css/effect-coverflow';
 // import required modules
 import { Autoplay, EffectCoverflow } from 'swiper/modules';
 
+import '../../css/EventCarousel.css'
+
 export default function App() {
   return (
     <>
@@ -26,7 +28,18 @@ export default function App() {
                 effect={'coverflow'}
                 grabCursor={true}
                 centeredSlides={true}
-                slidesPerView={'4'}
+                // slidesPerView={'4'}
+                breakpoints={{
+                  640: {
+                    slidesPerView: 1
+                  },
+                  768: {
+                    slidesPerView: 1
+                  },
+                  1024: {
+                    slidesPerView: 4
+                  }
+                }}
                 coverflowEffect={{
                   rotate: 10,
                   stretch: 0,
@@ -41,7 +54,6 @@ export default function App() {
                 }}
                 modules={[Autoplay, EffectCoverflow]}
                 className="mySwiper"
-
               >
                 <Link to={"./register/techno%20strom"}><SwiperSlide className='technostrom'>TECHNO STROM</SwiperSlide></Link>
                 <Link to={"./register/data%20dynamo"}><SwiperSlide className='datadynamo'>DATA DYNAMO</SwiperSlide></Link>

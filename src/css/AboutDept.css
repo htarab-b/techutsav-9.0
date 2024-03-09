@@ -1,0 +1,131 @@
+.about__dept {
+  padding: 2rem;
+  background-color: transparent;
+  border-radius: 100px;
+  background-image: radial-gradient(
+      at 47% 100%,
+      hsl(261.21, 43%, 45%) 0,
+      transparent 60%
+    ),
+    radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 2%);
+}
+
+.about__dept_cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.about__dept_flip-card {
+  width: 40%;
+  height: 350px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.about__dept_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.about__dept_flip-card:hover .about__dept_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.about__dept_flip-card-front,
+.about__dept_flip-card-back {
+  backdrop-filter: blur(25px) saturate(148%);
+  -webkit-backdrop-filter: blur(25px) saturate(148%);
+  background-color: #1119286b;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.453);
+  padding: 2rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.about__dept_flip-card-back {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+}
+
+.about__dept_flip-card-back img {
+  width: 200px;
+}
+
+.about__dept_flip-card-back p {
+  font-weight: 700;
+}
+
+.about__dept_flip-card-back .livewire {
+  width: 400px;
+}
+
+.about__dept_flip-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.about__dept_flip-card p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+@media (max-width: 800px) {
+  .about__dept {
+    padding: 1rem;
+  }
+
+  .about__dept_flip-card-front,
+  .about__dept_flip-card-back {
+    padding: 1.3rem;
+  }
+
+  .about__dept_cards {
+    flex-direction: column;
+  }
+
+  .about__dept_flip-card {
+    width: 100%;
+    height: 350px;
+    perspective: 1000px;
+  }
+
+  .about__dept_flip-card-back .livewire {
+    width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about__dept_flip-card {
+    width: 100%;
+    height: 470px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+}
+
+@media (max-width: 450px) {
+  .about__dept_flip-card {
+    width: 100%;
+    height: 500px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

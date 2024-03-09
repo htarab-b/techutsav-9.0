@@ -4,6 +4,7 @@
   --primary: #5627ce;
   --secondary: #f9f8fc;
   --accent: #6441a4;
+  --light:#994ecc;
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -13,14 +14,29 @@ body {
   scroll-behavior: smooth;
 }
 
-a{
+a {
   text-decoration: none !important;
 }
 
-
-h1{
+h1 {
   font-size: 2.5rem !important;
   font-weight: 800 !important;
   text-align: center;
-  color: var(--primary) !important;
+  background: linear-gradient(to right, #994ecc, var(--primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight{
+  font-size: 1rem !important;
+  color: var(--light) !important;
+}
+
+
+
+@media (max-width: 450px) {
+  h1{
+    display: flex;
+    flex-direction: column;s
+  }
 }

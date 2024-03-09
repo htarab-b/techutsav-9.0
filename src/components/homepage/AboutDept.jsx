@@ -3,44 +3,46 @@ import { Container, Col, Row } from 'react-bootstrap'
 import infernoLogo from '../../assets/inferno_logo.png'
 import liveWireLogo from '../../assets/LW_logo.png'
 
+import '../../css/AboutDept.css'
+
 const AboutDept = () => {
   return (
-    <div className='section__panel'>
-      <Container>
-        <Row>
-          <Col><h1 className='section__title_h1'>
-            About Department / Club
-          </h1></Col>
-        </Row>
-        <Row className='section__content'>
-          <Col md={6}>
-            <div className="about__dept_card">
-              <div className="about__dept_card-inner">
-                <div className="about__dept_card-front">
-                  <p>Department of Computer Science</p>
-                </div>
-                <div className="about__dept_card-back">
-                  <img src={infernoLogo} width={100} />
-                  <p> Club Inferno</p>
-                </div>
+    <div className='section__panel about__dept'>
+      <Container fluid>
+        <h1 className='section__title_h1'>
+          About Department / Club
+        </h1>
+        <div className='section__content about__dept_cards'>
+          <div className="about__dept_flip-card">
+            <div className="about__dept_flip-card-inner">
+              <div className="about__dept_flip-card-front">
+                <h3>Department of Computer Science</h3>
+                <p>
+                  The Department of Computer Science at SRM Institute of Science and Technology shapes adept professionals with strong values to lead the nation. With a focus on practical programming skills, our curriculum prepares students for successful careers in the software industry. Our faculty excel in research areas such as artificial intelligence and cybersecurity, providing hands-on learning opportunities. Through internships and research programs, students gain practical experience and build professional networks, ensuring readiness for the evolving field of computer science.
+                </p>
+              </div>
+              <div className="about__dept_flip-card-back">
+                <img src={infernoLogo}/>
+                
+                <p> Club Inferno</p>
               </div>
             </div>
-
-          </Col>
-          <Col md={6}>
-            <div className="about__dept_card">
-              <div className="about__dept_card-inner">
-                <div className="about__dept_card-front">
-                  <p>Department of Computer Applications</p>
-                </div>
-                <div className="about__dept_card-back">
-                  <img src={liveWireLogo} width={250} />
-                  <p> Livewires</p>
-                </div>
+          </div>
+          <div className="about__dept_flip-card">
+            <div className="about__dept_flip-card-inner">
+              <div className="about__dept_flip-card-front">
+                <h3>Department of Computer Applications</h3>
+                <p>
+                  The Computer Applications Department at SRM Institute of Science and Technology has excelled since its inception in 2005, becoming a beacon of quality education with a modern curriculum. Offering a broad spectrum of undergraduate and postgraduate programs, including BCA, BCA Data Science, MCA, and M.Sc Applied Data Science, it ranks among India's top institutions. Its flexible curriculum, emphasizing both theory and application, makes it a preferred choice for students seeking industry-relevant education in Tamil Nadu and beyond.
+                </p>
+              </div>
+              <div className="about__dept_flip-card-back">
+                <img src={liveWireLogo} className='livewire'/>
+                <p> Livewires</p>
               </div>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
       </Container>
     </div>
   )

@@ -31,13 +31,14 @@ const Header = () => {
 
                 <div className={`header__head ${isActive ? 'active' : ''}`}>
                     <Container>
-                        <Row>
-                            <Col md={8} className={`header__left ${isActive ? 'active' : ''}`}>
-                                <img src={tulogo} width={300} alt="TechUtsav" />
-                            </Col>
-                            <Col md={4} className='header__right'>
+                        <div className='header__row'>
+                            <div className={`header__left ${isActive ? 'active' : ''}`}>
+                                <img src={tulogo} alt="TechUtsav" />
+                            </div>
+                            <div className='header__right'>
                                 <Link to={"./events"}><button className="header__btn">
-                                    Events
+                                    <span>Events</span>
+
                                     <svg fill="currentColor" viewBox="0 0 24 24" className="icon">
                                         <path
                                             clipRule="evenodd"
@@ -46,8 +47,8 @@ const Header = () => {
                                         ></path>
                                     </svg>
                                 </button></Link>
-                               </Col>
-                        </Row>
+                            </div>
+                        </div>
                     </Container>
                 </div>
             </header>

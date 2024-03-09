@@ -18,7 +18,7 @@ const HomePage = () => {
       <GalleryPanel/>
       <AboutDept/>
       <Sponsors/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }
