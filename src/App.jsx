@@ -12,7 +12,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<HomePage />} />
       <Route path="/events" element={<EventPage />} />
       <Route path="/register/:eventName" element={<Register />} />
-      <Route path="/success" element={<SuccessPage />} />
+      <Route path="/success/:eventName" element={<SuccessPage />} />
     </Route>
   )
 );

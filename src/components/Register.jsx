@@ -99,7 +99,7 @@ function Register() {
         style={{ display: "none" }}
         onLoad={() => {
           if (submitted) {
-            window.location = "/success";
+            window.location = "/success/"+eventName;
           }
         }}
       ></iframe>

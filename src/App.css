@@ -84,6 +84,7 @@ section .container .homecontent
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 section .container .homecontent::-webkit-scrollbar {
   display: none;
@@ -118,19 +119,16 @@ section .container .homecontent .images {
 }
 section .container .homecontent h1 
 {
-  font-size: 2.5em;
+  font-size: 2em !important;
   font-family: "Josefin Sans", sans-serif !important;
   color: #fff !important;
-  text-transform: uppercase;
   text-align: center;
 }
 section .container .homecontent h1 .highlight
 {
-  font-size: 2em;
-  font-family: "Josefin Sans", sans-serif;
-  color: var(--primary);
+  font-size: 170% !important;
+  font-family: "Josefin Sans", sans-serif !important;
   text-transform: uppercase;
-  text-align: center;
 }
 section .container .homecontent h2 
 {
@@ -181,7 +179,7 @@ section .container .homecontent a :hover
 }
 section .container .homecontent a h4
 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -526,15 +524,15 @@ section .container .registercontent
 }
 .container .event_button a .header__btn {
   background-color: #000;
-  border: 2px solid #0096FF;
+  border: 2px solid var(--primary);
   color: #fff;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
 }
 .container .event_button a :hover {
-  background-color: #0096FF;
+  background-color: var(--primary);
   border: 2px solid #000;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .container .event_button a {
   text-decoration: none;
@@ -668,20 +666,15 @@ section .container .registercontent .form .inputBox i
 {
   padding: 10px;
   margin-bottom: 40px;
-  background: #0096FF;
-  color: #000;
+  border: solid 2px var(--primary);
+  background: #000;
+  color: #fff;
   font-weight: 600;
   font-size: 1.35em;
   letter-spacing: 0.05em;
   cursor: pointer;
   width: 120px;
   font-family: "Josefin Sans", sans-serif !important;
-}
-.container .registercontent .form .inputBox .header__btn :hover
-{
-  background: #000;
-  color: #0096FF;
-  cursor: pointer;
 }
 input[type="submit"]:active
 {
