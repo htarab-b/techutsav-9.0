@@ -562,10 +562,11 @@ section .container .registercontent h1 .highlight
 }
 section .container .registercontent .form 
 {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  overflow-x: hidden;
 }
 section .container ::-webkit-scrollbar
 {
@@ -591,16 +592,18 @@ section .container .registercontent .form .inputBox input
 }
 section .container .registercontent .form .inputBox select 
 {
-  width: 40%;
+  position: absolute;
+  left: 40%;
+  width: 20%;
   background: #333;
   border: none;
   outline: none;
-  padding: 10px;
+  padding: 5px;
+  margin-top: 7px;
   border-radius: 4px;
   color: #fff;
   font-weight: 500;
   font-size: 1em;
-  padding-right: 10px;
 }
 section .container .registercontent .form .inputBox label
 {
@@ -611,6 +614,15 @@ section .container .registercontent .form .inputBox label
   color: #aaa;
   transition: 0.5s;
   pointer-events: none;
+  font-size: 1em;
+  margin-left: 0;
+}
+section .container .registercontent .form label
+{
+  font-size: 1.1em;
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
 }
 section .container .registercontent .form .inputBox input[type="text"]
 {

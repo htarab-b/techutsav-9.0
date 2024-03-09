@@ -44,6 +44,7 @@ function Register() {
                     <input type="text" name="entry.2114207288" required />{" "}
                     <i>College Name</i>
                   </div>
+                  <hr />
                   <div className="inputBox">
                     <label>Participants</label>
                     <select id="participant_count" onChange={changeNumParticipants}>
@@ -53,18 +54,21 @@ function Register() {
                       <option value="4">4</option>
                     </select>
                   </div>
+                  <br />
                   {[...Array(NumParticipants)].map((_, index) => (
                     <div key={index}>
+                        <label>{`Participant ${index + 1}`}</label>
                       <div className="inputBox">
                         <input type="text" name={participantentryname[index]} required />
-                        <i>{`Participant ${index + 1} Name`}</i>
+                        <i>{`Name`}</i>
                       </div>
                       <div className="inputBox">
                         <input type="text" name={participantentryreg[index]} required />
-                        <i>{`Participant ${index + 1} Registration Number`}</i>
+                        <i>{`Registration Number`}</i>
                       </div>
                     </div>
                   ))}
+                  <hr />
                   <div className="inputBox">
                     <input type="text" name="entry.1990457520" required />{" "}
                     <i>Degree</i>
