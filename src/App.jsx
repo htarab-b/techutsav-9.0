@@ -5,6 +5,7 @@ import Register from './components/Register';
 import EventPage from './pages/EventsPage';
 import HomePage from './pages/HomePage';
 import SuccessPage from './pages/SuccessPage';
+import RuleBook from './pages/RuleBook';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
       <Route path="/events" element={<EventPage />} />
       <Route path="/register/:eventName" element={<Register />} />
       <Route path="/success/:eventName" element={<SuccessPage />} />
+      <Route path="/rulebook/:eventName" element={<RuleBook />} />
     </Route>
   )
 );

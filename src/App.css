@@ -72,6 +72,9 @@ section .container
   border-radius: 4px;
   box-shadow: 0 15px 35px rgba(0,0,0,9);
 }
+section .container ::-webkit-scrollbar {
+  display: none;
+}
 section .container .homecontent 
 {
   position: relative;
@@ -84,7 +87,7 @@ section .container .homecontent
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 section .container .homecontent::-webkit-scrollbar {
   display: none;
@@ -126,7 +129,7 @@ section .container .homecontent h1
 }
 section .container .homecontent h1 .highlight
 {
-  font-size: 170% !important;
+  font-size: 150% !important;
   font-family: "Josefin Sans", sans-serif !important;
   text-transform: uppercase;
 }
@@ -169,6 +172,7 @@ section .container .homecontent a
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 300px;
 }
 section .container .homecontent a :hover
 {
@@ -179,7 +183,10 @@ section .container .homecontent a :hover
 }
 section .container .homecontent a h4
 {
-  font-size: 1.2em;
+  font-size: 1.1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -209,6 +216,102 @@ section .container .homecontent a h4
   }
 }
 
+/* Rule Book */
+section .container .rulebookcontent 
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+section .container .rulebookcontent::-webkit-scrollbar {
+  display: none;
+}
+section .container .rulebookcontent h1 
+{
+  font-size: 2em !important;
+  font-family: "Josefin Sans", sans-serif !important;
+  color: #fff !important;
+  text-align: center;
+}
+section .container .rulebookcontent h1 .highlight
+{
+  font-size: 150% !important;
+  font-family: "Josefin Sans", sans-serif !important;
+  text-transform: uppercase;
+}
+section .container .rulebookcontent h2 
+{
+  font-size: 2em;
+  font-family: "Jost", sans-serif;
+  color: var(--primary);
+  text-align: left;
+}
+section .container .rulebookcontent p
+{
+  width: 100%;
+  font-size: 1.3em !important;
+  color: #fff;
+  text-align: left;
+  margin-top: -30px;
+}
+section .container .rulebookcontent p .highlight
+{
+  font-size: 150%;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--primary);
+  text-transform: uppercase;
+  text-align: center;
+}
+section .container .rulebookcontent p .subheading
+{
+  font-size: 120%;
+  color: var(--primary);
+}
+section .container .rulebookcontent h3
+{
+  font-size: 1.5em;
+  color: var(--primary);
+  text-align: center;
+}
+section .container .rulebookcontent a
+{
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+section .container .rulebookcontent a :hover
+{
+  transform: scale(1.1);
+  color: var(--primary);
+  background-color: #000;
+  border: solid 2px var(--primary);
+}
+section .container .rulebookcontent a h4
+{
+  font-size: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--primary);
+  color: #000;
+  margin-bottom: 0px;
+  font-family: "Josefin Sans", sans-serif !important;
+  border: solid 2px #000;
+  transition: transform 0.7s ease-out;
+}
 
 /* Events */
 
@@ -299,6 +402,11 @@ body {
 .timeline-row .timeline-content p {
   margin-bottom: 30px;
   line-height: 150%;
+}
+
+.timeline-row .timeline-content a {
+  display: block;
+  margin-top: 20px;
 }
 
 .timeline-row .timeline-content i {

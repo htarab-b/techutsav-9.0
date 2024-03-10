@@ -32,8 +32,9 @@ const Events = () => {
                                                     Quisque auctor, ex sed lobortis vehicula, ante lectus
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
-                                                <div className="">
+                                                <div className="links">
                                                     <Link to={"../register/techno%20strom"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/techno%20strom"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -52,8 +53,9 @@ const Events = () => {
                                                     Quisque auctor, ex sed lobortis vehicula, ante lectus
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
-                                                <div className="">
+                                                <div className="links">
                                                     <Link to={"../register/data%20dynamo"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/data%20dynamo"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -72,8 +74,9 @@ const Events = () => {
                                                     Quisque auctor, ex sed lobortis vehicula, ante lectus
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
-                                                <div className="">
+                                                <div className="links">
                                                     <Link to={"../register/infographics"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/infographics"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -92,8 +95,9 @@ const Events = () => {
                                                     Quisque auctor, ex sed lobortis vehicula, ante lectus
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
-                                                <div className="">
+                                                <div className="links">
                                                     <Link to={"../register/pixellno"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/pixellno"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -112,8 +116,9 @@ const Events = () => {
                                                     Quisque auctor, ex sed lobortis vehicula, ante lectus
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
-                                                <div className="">
+                                                <div className="links">
                                                     <Link to={"../register/buss%20burst"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/buss%20burst"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -132,8 +137,9 @@ const Events = () => {
                                                     Quisque auctor, ex sed lobortis vehicula, ante lectus
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
-                                                <div className="">
+                                                <div className="links">
                                                     <Link to={"../register/byte%20battle"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/byte%20battle"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -152,8 +158,9 @@ const Events = () => {
                                                     Quisque auctor, ex sed lobortis vehicula, ante lectus
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
-                                                <div className="">
+                                                <div className="links">
                                                     <Link to={"../register/cyber%20giggles"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/cyber%20giggles"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -172,8 +179,9 @@ const Events = () => {
                                                     Quisque auctor, ex sed lobortis vehicula, ante lectus
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
-                                                <div className="">
+                                                <div className="links">
                                                     <Link to={"../register/virtual%20silhouette"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/virtual%20silhouette"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -192,8 +200,9 @@ const Events = () => {
                                                     Quisque auctor, ex sed lobortis vehicula, ante lectus
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
-                                                <div className="">
+                                                <div className="links">
                                                     <Link to={"../register/bug%20busters"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/bug%20busters"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
