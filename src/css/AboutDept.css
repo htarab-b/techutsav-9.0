@@ -1,4 +1,5 @@
 .about__dept {
+  user-select: none;
   padding: 2rem;
   background-color: transparent;
   border-radius: 100px;
@@ -83,9 +84,35 @@
   text-align: justify;
 }
 
+.about__dept_social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about__dept_flip-card-back p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  line-height: 0;
+}
+
+.about__dept_social_icons a {
+  font-size: 2rem;
+  color: white;
+}
+
+.about__dept_social_icons a:hover {
+  color: var(--primary);
+}
+
 @media (max-width: 800px) {
+
+
   .about__dept {
+    border-radius: 50px;
     padding: 1rem;
+    padding-bottom: 100px;
   }
 
   .about__dept_flip-card-front,

@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import infernoLogo from '../../assets/inferno_logo.png'
 import liveWireLogo from '../../assets/LW_logo.png'
+import { AiFillMail, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 import '../../css/AboutDept.css'
 
@@ -22,9 +23,13 @@ const AboutDept = () => {
                 </p>
               </div>
               <div className="about__dept_flip-card-back">
-                <img src={infernoLogo}/>
-                
+                <img src={infernoLogo} />
                 <p> Club Inferno</p>
+                <div className='about__dept_social_icons'>
+                  <a target='_blank' href='https://www.instagram.com/inferno_srm/'><AiFillInstagram /></a>
+                  <a target='_blank' href='mailto:clubinfernosrm@gmail.com'><AiFillMail /></a>
+                  <a target='_blank' href='https://www.linkedin.com/company/clubinferno/'><AiFillLinkedin /></a>
+                </div>
               </div>
             </div>
           </div>
@@ -37,8 +42,13 @@ const AboutDept = () => {
                 </p>
               </div>
               <div className="about__dept_flip-card-back">
-                <img src={liveWireLogo} className='livewire'/>
+                <img src={liveWireLogo} className='livewire' />
                 <p> Livewires</p>
+                <div className='about__dept_social_icons'>
+                  <a target='_blank' href='https://www.instagram.com/livewires.srm/'><AiFillInstagram /></a>
+                  <a target='_blank' href=''><AiFillMail /></a>
+                  <a target='_blank' href='https://www.linkedin.com/in/livewires-club-472178287/'><AiFillLinkedin /></a>
+                </div>
               </div>
             </div>
           </div>

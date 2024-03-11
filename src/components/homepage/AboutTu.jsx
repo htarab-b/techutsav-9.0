@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import tulogo from '../../assets/TechUtsav Logo white.png'
+import '../../css/AboutTu.css'
 
 const AboutTu = () => {
     return (
