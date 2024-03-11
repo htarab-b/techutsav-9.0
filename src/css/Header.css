@@ -157,13 +157,8 @@ header {
     font-size: 1rem;
   }
 
-  .header__btn span {
-    display: none;
-  }
-
   .header__btn .icon {
-    width: 22px;
-    height: 22px;
+    display: none;
   }
 }
 

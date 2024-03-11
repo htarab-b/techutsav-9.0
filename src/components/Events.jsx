@@ -108,7 +108,7 @@ const Events = () => {
                                             <div className="timeline-dot green-four-bg" />
                                             <div className="timeline-content green-four">
                                                 <i className="fa fa-user" />
-                                                <h4>BUSS BURST</h4>
+                                                <h4>IDEASMITHS</h4>
                                                 <p className="no-margin">
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                     Pellentesque aliquet arcu et arcu porta facilisis.
@@ -117,8 +117,8 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/buss%20burst"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/buss%20burst"}><button className="btn">Rule Book</button></Link>
+                                                    <Link to={"../register/ideasmiths"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/ideasmiths"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -171,7 +171,7 @@ const Events = () => {
                                             <div className="timeline-dot fb-bg" />
                                             <div className="timeline-content">
                                                 <i className="fa fa-map-marker" />
-                                                <h4>VIRTUAL SILHOUETTE</h4>
+                                                <h4>CREATIVE CLASH</h4>
                                                 <p>
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                     Pellentesque aliquet arcu et arcu porta facilisis.
@@ -180,8 +180,8 @@ const Events = () => {
                                                     pulvinar magna, at volutpat nunc odio ac sem.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/virtual%20silhouette"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/virtual%20silhouette"}><button className="btn">Rule Book</button></Link>
+                                                    <Link to={"../register/creative%20clash"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/creative%20clash"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
