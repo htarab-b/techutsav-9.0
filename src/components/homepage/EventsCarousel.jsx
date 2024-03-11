@@ -59,10 +59,10 @@ export default function App() {
                 <Link to={"./register/data%20dynamo"}><SwiperSlide className='datadynamo'>DATA DYNAMO</SwiperSlide></Link>
                 <Link to={"./register/infographics"}><SwiperSlide className='infographics'>INFOGRAPHICS</SwiperSlide></Link>
                 <Link to={"./register/pixellno"}><SwiperSlide className='pixellno'>PIXELLNO</SwiperSlide></Link>
-                <Link to={"./register/buss%20burst"}><SwiperSlide className='bussburst'>BUSS BURST</SwiperSlide></Link>
+                <Link to={"./register/buss%20burst"}><SwiperSlide className='bussburst'>Idea Smiths </SwiperSlide></Link>
                 <Link to={"./register/byte%20battle"}><SwiperSlide className='bytebattle'>BYTE BATTLE</SwiperSlide></Link>
                 <Link to={"./register/cyber%20giggles"}><SwiperSlide className='cybergiggles'>CYBER GIGGLES</SwiperSlide></Link>
-                <Link to={"./register/virtual%20silhouette"}><SwiperSlide className='virtualsilhouette'>VIRTUAL SILHOUETTE</SwiperSlide></Link>
+                <Link to={"./register/virtual%20silhouette"}><SwiperSlide className='virtualsilhouette'>Creative Clash</SwiperSlide></Link>
                 <Link to={"./register/bug%20busters"}><SwiperSlide className='bugbusters'>BUG BUSTERS</SwiperSlide></Link>
               </Swiper>
             </Col>
