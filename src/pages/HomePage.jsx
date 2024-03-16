@@ -10,7 +10,7 @@ import Footer from '../components/homepage/Footer'
 
 const HomePage = () => {
   return (
-    <>
+    <div className='homepage'>
       <Header />
       <HeroSection />
       <AboutTu />
@@ -19,7 +19,7 @@ const HomePage = () => {
       <AboutDept/>
       <Sponsors/>
       <Footer/>
-    </>
+    </div>
   )
 }
 

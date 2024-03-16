@@ -9,6 +9,11 @@
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
 }
+
+.homepage {
+  overflow-x: hidden;
+}
+
 .body 
 {
   display: flex;
@@ -584,10 +589,16 @@ body {
   display: flex;
   justify-content: center;
   font-family: "Josefin Sans", sans-serif !important;
-  color: #0096FF !important;
-  font-size: 32px;
+  font-size: 62px !important;
   margin-bottom: 30px;
-  margin-left: 10px;
+  color: #fff;
+}
+
+.bootdey h2 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 32px;
   color: #fff;
 }
 

@@ -27,8 +27,6 @@ const Header = () => {
     return (
         <>
             <header>
-
-
                 <div className={`header__head ${isActive ? 'active' : ''}`}>
                     <Container>
                         <div className='header__row'>
@@ -38,7 +36,6 @@ const Header = () => {
                             <div className='header__right'>
                                 <Link to={"./events"}><button className="header__btn">
                                     <span>Events</span>
-
                                     <svg fill="currentColor" viewBox="0 0 24 24" className="icon">
                                         <path
                                             clipRule="evenodd"

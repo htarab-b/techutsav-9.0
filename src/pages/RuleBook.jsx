@@ -75,7 +75,7 @@ const RuleBook = () => {
         </p>
     );
   }
-  else if (eventName === 'ideasmiths') {
+  else if (eventName === 'idea smiths') {
     generatedCode = (
         <p>
             <ul>

@@ -11,12 +11,12 @@ const GalleryData = [
     },
     {
         id: 3,
-        imageUrl: './gallery-image/DSC00976.JPG',
+        imageUrl: './gallery-image/IMG_5263.JPG',
         caption: "I'm so happy today!"
     },
     {
         id: 4,
-        imageUrl: './gallery-image/DSC00977.JPG',
+        imageUrl: './gallery-image/IMG_5256.JPG',
         caption: "I see those nugs."
     },
     {
@@ -26,7 +26,7 @@ const GalleryData = [
     },
     {
         id: 2,
-        imageUrl: './gallery-image/DSC00825.JPG',
+        imageUrl: './gallery-image/IMG_5237.JPG',
         caption: "I see those nugs."
     },
     {

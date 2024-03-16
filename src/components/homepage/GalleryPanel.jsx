@@ -19,7 +19,6 @@ const GalleryPanel = () => {
               {GalleryData.map(item => (
                 <div key={item.id}>
                   <img className={`grid-item grid-item-${item.id}`} src={item.imageUrl} alt='' />
-                  <p>{item.caption}</p>
                 </div>
               ))}
             </div>
