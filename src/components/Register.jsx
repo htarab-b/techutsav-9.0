@@ -7,13 +7,24 @@ function Register() {
   const { eventName } = useParams();
   const [submitted, setSubmitted] = useState(false);
 
-  const [NumParticipants, setNumParticipants] = useState(1);
+  const participantentryname = ["entry.2092238618", "entry.804971439", "entry.1322358781", "entry.1559571549", "entry.1749676454", "entry.2065660339", "entry.2064512186", "entry.981405841", "entry.100309307", "entry.572629240"]
+  const participantentryreg = ["entry.481760380", "entry.771109477", "entry.2125764197", "entry.1599994719", "entry.1103851530", "entry.1972962889", "entry.882182259", "entry.1643600175", "entry.1809534894", "entry.1238748307"]
+
+  let minParticipants, maxParticipants;
+  if (eventName == "byte battle") {minParticipants = 1 ; maxParticipants = 4}
+  if (eventName == "data dynamo") {minParticipants = 1 ; maxParticipants = 2}
+  if (eventName == "pixellno") {minParticipants = 1 ; maxParticipants = 1}
+  if (eventName == "info graphics") {minParticipants = 1 ; maxParticipants = 2}
+  if (eventName == "techno storm") {minParticipants = 2 ; maxParticipants = 2}
+  if (eventName == "bug busters") {minParticipants = 2 ; maxParticipants = 2}
+  if (eventName == "cyber giggles") {minParticipants = 1 ; maxParticipants = 1}
+  if (eventName == "creative clash") {minParticipants = 5 ; maxParticipants = 10}
+  if (eventName == "idea smiths") {minParticipants = 1 ; maxParticipants = 5}
+
+  const [NumParticipants, setNumParticipants] = useState(minParticipants);
   const changeNumParticipants = (e) => {
     setNumParticipants(parseInt(e.target.value, 10));
   }
-
-  const participantentryname = ["entry.2092238618", "entry.804971439", "entry.1322358781", "entry.1559571549"]
-  const participantentryreg = ["entry.481760380", "entry.771109477", "entry.2125764197", "entry.1599994719"]
 
   return (
     <>
@@ -48,10 +59,15 @@ function Register() {
                   <div className="inputBox">
                     <label>Participants</label>
                     <select id="participant_count" onChange={changeNumParticipants}>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
+                      {
+                        (() => {
+                          const options = [];
+                          for (let i = minParticipants; i <= maxParticipants; i++) {
+                            options.push(<option value={i}>{i}</option>);
+                          }
+                          return options;
+                        })()
+                      }
                     </select>
                   </div>
                   <br />
