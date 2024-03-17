@@ -38,7 +38,7 @@ const RuleBook = () => {
         </p>
     );
   }
-  else if (eventName === 'infographics') {
+  else if (eventName === 'info graphics') {
     generatedCode = (
         <p>
             <li>Individual participants or two as a team.</li>
@@ -74,6 +74,12 @@ const RuleBook = () => {
                 <li>The photos should be mailed to techutsav24@gmail.com.</li>
                 <li>File name should be the participant's name.</li>
                 <li>If submitted photograph has abusive or mature content, it will not be considered as a valid entry.</li>
+                <br /><strong className='highlights'>Topics</strong>
+                <ul>
+                  <li>Architecture photography</li>
+                  <li>Reflections photography</li>
+                  <li>Low light photography</li>
+                </ul>
             </ul>
         </p>
     );
@@ -121,6 +127,7 @@ const RuleBook = () => {
                 <li>Timely arrival is mandatory for the competition.</li>
                 <li>College ID cards are required for all participants.</li>
                 <li>No re-entry or on-the-spot entries will be accepted.</li>
+                <li>Pre install chess application by chess.com from Play Store/App Store.</li>
                 <li>Avoid jailbreaking third-party apps.</li>
                 <li>Bring your own devices and ensure a proper internet connection.</li>
                 <li>No refunds will be issued.</li>
@@ -163,9 +170,9 @@ const RuleBook = () => {
           <br />
           <strong className="highlights">Topics</strong>
           <ul>
-              <li>Social Engine.</li>
-              <li>Women Empowerment.</li>
-              <li>Student Life or Open Choice</li>
+              <li>Social Engine</li>
+              <li>Effects of AI</li>
+              <li>Digital Detox</li>
           </ul>
         </p>
     );

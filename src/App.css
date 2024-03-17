@@ -230,7 +230,7 @@ section .container .rulebookcontent
   display: flex;
   flex-direction: column;
   gap: 40px;
-  overflow: scroll;
+  overflow-y: scroll;
   display: flex;
   align-items: center;
   overflow-x: hidden;
@@ -261,7 +261,7 @@ section .container .rulebookcontent h2
 section .container .rulebookcontent p
 {
   width: 100%;
-  font-size: 1.3em !important;
+  font-size: 1.1em !important;
   color: #fff;
   text-align: left;
   margin-top: -30px;
@@ -638,7 +638,8 @@ section .container .registercontent
   height: 95%;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .container .event_button a .header__btn {
   background-color: #000;
@@ -662,7 +663,7 @@ section .container .registercontent
 }
 section .container .registercontent h1 
 {
-  font-size: 2em;
+  font-size: 2em !important;
   font-family: "Josefin Sans", sans-serif !important;
   color: #fff !important;
   text-transform: uppercase;
@@ -708,9 +709,10 @@ section .container .registercontent .form .inputBox input
 }
 section .container .registercontent .form .inputBox select 
 {
+  display: flexbox;
   position: absolute;
-  left: 40%;
-  width: 20%;
+  margin-left: 0;
+  width: 45%;
   background: #333;
   border: none;
   outline: none;
