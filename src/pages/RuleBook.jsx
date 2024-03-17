@@ -6,7 +6,7 @@ const RuleBook = () => {
   const { eventName } = useParams();
 
   let generatedCode;
-  if (eventName === 'techno strom') {
+  if (eventName === 'techno storm') {
     generatedCode = (
         <p>
             <ul>

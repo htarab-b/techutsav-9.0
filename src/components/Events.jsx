@@ -94,13 +94,13 @@ const Events = () => {
                                             <div className="timeline-dot green-four-bg" />
                                             <div className="timeline-content green-four">
                                                 <i className="fa fa-user" />
-                                                <h4>TECHNO STROM</h4>
+                                                <h4>TECHNO STORM</h4>
                                                 <p className="no-margin">
-                                                    Techno Strom is a quiz competition covering a wide range of topics related to technology. Participants compete against each other to answer questions accurately and quickly within a specified time frame. The quiz may include multiple-choice questions and rapid-fire rounds. The team or individual with the highest score at the end of the competition is declared the winner.
+                                                    Techno Storm is a quiz competition covering a wide range of topics related to technology. Participants compete against each other to answer questions accurately and quickly within a specified time frame. The quiz may include multiple-choice questions and rapid-fire rounds. The team or individual with the highest score at the end of the competition is declared the winner.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/techno%20strom"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/techno%20strom"}><button className="btn">Rule Book</button></Link>
+                                                    <Link to={"../register/techno%20storm"}><button className="btn">Register</button></Link>
+                                                    <Link to={"../rulebook/techno%20storm"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
