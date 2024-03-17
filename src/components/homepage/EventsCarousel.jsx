@@ -30,7 +30,7 @@ export default function App() {
         <Container>
           <Row>
             <Col><h1>
-              <Link to={"./events"}>Events</Link>
+              Events
             </h1></Col>
           </Row>
           <Row className='section__content event__carousel'>

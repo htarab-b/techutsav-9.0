@@ -11,10 +11,13 @@ const RuleBook = () => {
         <p>
             <ul>
                 <li>Participants consist of a team of two members.</li>
-                <li>General Computer Aptitude Preliminary round - 4 sections with 5 questions each (Total Duration:30 minutes)</li>
-                <li>The preliminary Round will be conducted in a written mode so participants must carry the required stationary items.</li>
+                <li>General computer aptitude.</li>
+                <li>Preliminary round - 4 sections with 10 questions each (total duration: 50 minutes).</li>
+                <li>The preliminary round will be conducted in written mode.</li>
+                <li>Participants must carry the required stationary items.</li>
                 <li>The final round will be an on-stage event.</li>
-                <li>Mobile Phones are not allowed.</li>
+                <li>Mobile phones are not allowed.</li>
+                <li>The results announced by the organizers are final.</li>
             </ul>
         </p>
     );
@@ -23,14 +26,14 @@ const RuleBook = () => {
     generatedCode = (
         <p>
             <li>A team of one or two participants.</li>
-            <li>5 min for the presentation and 1-2 min for the questions</li>
+            <li>5 minutes for the presentation followed by 1-2 minutes for the viva</li>
             <li>Abstract should not exceed 1 page and paper should not exceed 10 pages.</li>
             <br />
             <strong className='highlights'>Topics</strong>
               <ul>
                 <li>Growth of Virtual Reality. i.e Apple Vision Pro, Meta quest, Oculus.</li>
                 <li>Print Your Dreams: The future of 3D manufacturing.</li>
-                <li>Does chatgpt is writing fall of  Google's Empire chapter 1 if yes how? If no explain why.</li>
+                <li>Does ChatGPT write the fall of  Google's Empire, Chapter 1 if yes how? If no explain why.</li>
               </ul>
         </p>
     );
@@ -69,7 +72,7 @@ const RuleBook = () => {
                 <li>Plagiarism of any kind will not be tolerated. </li>
                 <li>Images will be judged on originality, technical excellence, composition, overall impact and artistic merit. </li>
                 <li>The photos should be mailed to techutsav24@gmail.com.</li>
-                <li>File name should the participant name.</li>
+                <li>File name should be the participant's name.</li>
                 <li>If submitted photograph has abusive or mature content, it will not be considered as a valid entry.</li>
             </ul>
         </p>
@@ -84,6 +87,7 @@ const RuleBook = () => {
                 <li>10 minutes of Preparation Time 5 minutes on Stage.</li>
                 <li>Must present the ad with full confidence and must have articulate communication.</li>
                 <li>Reproducing old advertisements are not encouraged.</li>
+                <li>No electronic gadgets must be used for preparation.</li>
             </ul>
         </p>
     );
@@ -92,35 +96,35 @@ const RuleBook = () => {
     generatedCode = (
         <p>
           <ul>
-            <li><strong className="highlights">For BGMI and Free Fire</strong>
+            <strong className="highlights">REGISTER FEE: </strong> <br /> <li>Rs.100 for a Team (BGMI and Free fire)</li><li> Rs.50 per participant (Chess)</li> <br />
+            <li><strong className="highlights">BGMI and Free Fire</strong>
               <ul>
-                <li>Only one member from the team has to fill the form.</li>
-                <li>Participants should pay Rs.100(Per Team).</li>
-                <li>Participants should arrive for the competition on time.</li>
-                <li>Participants should bring their own devices</li>
-                <li>Participants should come with their College ID card.</li>
-                <li>Bring headphones if necessary. Any other accessories will not be allowed.</li>
-                <li>No re-entry and no on spot entry.</li>
-                <li>No jailbreaking and third party apps.</li>
-                <li>Please come with pre installed “BGMI” and classic maps and TDM also for Free fire preinstall classic maps .</li>
-                <li>Only TEAMS matches will be conducted.</li>
-                <li>Come with proper internet connection.</li>
-                <li>Refunds are not applicable.</li>
-                <li>Certificates will be provided only for the winner and runner (no participation certificate for gaming)</li>
+                <li>Only one team member is required to fill out the form and pay the Rs. 100 team fee.</li>
+                <li>Participants must arrive on time for the competition.</li>
+                <li>Bring your college ID card for verification.</li>
+                <li>Headphones are allowed if needed; however, no other accessories are permitted.</li>
+                <li>Re-entry or on-the-spot entries will not be entertained.</li>
+                <li>Avoid jailbreaking third-party apps.</li>
+                <li>Ensure that "BGMI" is pre-installed, including classic maps.</li>
+                <li>For Free Fire, preinstall classic maps and TDM.</li>
+                <li>Bring your own devices.</li>
+                <li>Only team matches will be conducted.</li>
+                <li>Ensure a stable internet connection.</li>
+                <li>No refunds will be provided.</li>
+                <li>Certificates will only be awarded to the winners and runners-up; no participation certificates for gaming.</li>
               </ul>
             </li>
             <br />
-            <li><strong className="highlights">For Chess</strong>
+            <li><strong className="highlights">Chess</strong>
               <ul>
-                <li>Participant should pay Rs.50.</li>
-                <li>Participants should arrive for the competition on time.</li>
-                <li>Participants should bring their own devices</li>
-                <li>Participants should come with their College ID card.</li>
-                <li>No re-entry and no on spot entry.</li>
-                <li>No jailbreaking and third party apps.</li>
-                <li>Come with proper internet connection.</li>
-                <li>Refunds are not applicable.</li>
-                <li>Certificates will be provided only for the winner and runner (no participation certificate for gaming)</li>
+                <li>Chess participants should pay Rs. 50.</li>
+                <li>Timely arrival is mandatory for the competition.</li>
+                <li>College ID cards are required for all participants.</li>
+                <li>No re-entry or on-the-spot entries will be accepted.</li>
+                <li>Avoid jailbreaking third-party apps.</li>
+                <li>Bring your own devices and ensure a proper internet connection.</li>
+                <li>No refunds will be issued.</li>
+                <li>Certificates will only be awarded to the winners and runners-up; no participation certificates for gaming.</li>
               </ul>
             </li>
           </ul>
@@ -159,9 +163,9 @@ const RuleBook = () => {
           <br />
           <strong className="highlights">Topics</strong>
           <ul>
-              <li>Social engine.</li>
-              <li>Women empowerment.</li>
-              <li>Student Life or open choice</li>
+              <li>Social Engine.</li>
+              <li>Women Empowerment.</li>
+              <li>Student Life or Open Choice</li>
           </ul>
         </p>
     );
@@ -170,9 +174,9 @@ const RuleBook = () => {
     generatedCode = (
         <p>
             <ul>
-                <li>Each  team  consists of   maximum  two members .</li>
-                <li>Teams can choose their preferred language for only final round among C++, Java and Python.</li>
-                <li>Prelims will be held inorder to shortlist  number of teams for final round.</li>
+                <li>Each team can contain a maximum of two members.</li>
+                <li>Participating teams can choose their preferred language for the final round alone among C++, Java, and Python.</li>
+                <li>Prelims will be held to shortlist a selected number of teams for the final round. It may have a mix-up of questions from C++, Java, and Python.</li>
             </ul>
         </p>
     );
