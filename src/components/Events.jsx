@@ -30,8 +30,8 @@ const Events = () => {
                                                     Byte Battle is a gaming competition featuring popular electronic games such as BGMI (Battlegrounds Mobile India), Free Fire, and Chess. Participants compete against each other in intense gaming matches, either individually or as teams, to showcase their skills, strategy, and sportsmanship. Winners are determined based on factors such as score, performance, and adherence to the rules of the game.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/byte%20battle"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/byte%20battle"}><button className="btn">Rule Book</button></Link>
+                                                    <Link target='_blank' to={"../register/byte%20battle"}><button className="btn">Register</button></Link>
+                                                    <Link target='_blank' to={"../rulebook/byte%20battle"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -47,8 +47,8 @@ const Events = () => {
                                                     Data Dynamo is a paper presentation competition focused on topics related to 3-D manufacturing, the rise of AI, and virtual reality in technology. Participants present their research findings, innovative ideas, or case studies related to these topics. Judges evaluate presentations based on originality, relevance, depth of research, clarity of presentation, and potential impact.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/data%20dynamo"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/data%20dynamo"}><button className="btn">Rule Book</button></Link>
+                                                    <Link target='_blank' to={"../register/data%20dynamo"}><button className="btn">Register</button></Link>
+                                                    <Link target='_blank' to={"../rulebook/data%20dynamo"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -64,8 +64,8 @@ const Events = () => {
                                                     Pixellno is a photography competition where participants showcase their skills in capturing stunning visuals. Participants are given themes or prompts, and they have to interpret and capture those themes creatively through their photographs. Judges evaluate the photographs based on composition, creativity, technical proficiency, and adherence to the theme.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/pixellno"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/pixellno"}><button className="btn">Rule Book</button></Link>
+                                                    <Link target='_blank' to={"../register/pixellno"}><button className="btn">Register</button></Link>
+                                                    <Link target='_blank' to={"../rulebook/pixellno"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,8 +81,8 @@ const Events = () => {
                                                     Infographics is a poster presentation competition where participants design visually appealing and informative posters on a given topic or theme. Participants use a combination of graphics, text, and data visualisation techniques to convey complex information in a clear and concise manner. Judges assess the posters based on design aesthetics, clarity of information, creativity, and effectiveness in communication.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/infographics"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/infographics"}><button className="btn">Rule Book</button></Link>
+                                                    <Link target='_blank' to={"../register/infographics"}><button className="btn">Register</button></Link>
+                                                    <Link target='_blank' to={"../rulebook/infographics"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -98,8 +98,8 @@ const Events = () => {
                                                     Techno Storm is a quiz competition covering a wide range of topics related to technology. Participants compete against each other to answer questions accurately and quickly within a specified time frame. The quiz may include multiple-choice questions and rapid-fire rounds. The team or individual with the highest score at the end of the competition is declared the winner.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/techno%20strom"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/techno%20strom"}><button className="btn">Rule Book</button></Link>
+                                                    <Link target='_blank' to={"../register/techno%20strom"}><button className="btn">Register</button></Link>
+                                                    <Link target='_blank' to={"../rulebook/techno%20strom"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -115,8 +115,8 @@ const Events = () => {
                                                     Bug Busters is a debugging competition where participants demonstrate their programming skills by identifying and fixing bugs or errors in code snippets provided to them. Participants may work individually or in teams to debug the code within a specified time limit. Judges evaluate participants based on their ability to identify and resolve issues efficiently, as well as the quality of their solutions.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/bug%20busters"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/bug%20busters"}><button className="btn">Rule Book</button></Link>
+                                                    <Link target='_blank' to={"../register/bug%20busters"}><button className="btn">Register</button></Link>
+                                                    <Link target='_blank' to={"../rulebook/bug%20busters"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -132,8 +132,8 @@ const Events = () => {
                                                     Cyber Giggles is a meme creation competition where participants showcase their humour and creativity by creating memes on given topics. Participants use images, text, and humour to craft engaging and relatable memes that resonate with the audience. Judges evaluate the memes based on originality, humour, relevance to the theme, and overall impact.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/cyber%20giggles"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/cyber%20giggles"}><button className="btn">Rule Book</button></Link>
+                                                    <Link target='_blank' to={"../register/cyber%20giggles"}><button className="btn">Register</button></Link>
+                                                    <Link target='_blank' to={"../rulebook/cyber%20giggles"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -149,8 +149,8 @@ const Events = () => {
                                                     Creative Clash is a mime competition where participants use gestures, expressions, and body language to convey stories, messages, or emotions without using words. Participants perform scripted or improvised mime acts on various themes, ranging from social issues to entertainment. Judges assess performances based on creativity, synchronisation, expression, and overall effectiveness in storytelling.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/creative%20clash"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/creative%20clash"}><button className="btn">Rule Book</button></Link>
+                                                    <Link target='_blank' to={"../register/creative%20clash"}><button className="btn">Register</button></Link>
+                                                    <Link target='_blank' to={"../rulebook/creative%20clash"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -166,8 +166,8 @@ const Events = () => {
                                                     Ideasmiths is an ADZAP competition where participants demonstrate their creativity and persuasive skills by creating advertisements on the spot. Participants are given a product or service and a limited amount of time to come up with an advertisement concept, which they then present to the judges. Judges evaluate the advertisements based on creativity, effectiveness in conveying the message, and overall presentation skills.
                                                 </p>
                                                 <div className="links">
-                                                    <Link to={"../register/idea%20smiths"}><button className="btn">Register</button></Link>
-                                                    <Link to={"../rulebook/idea%20smiths"}><button className="btn">Rule Book</button></Link>
+                                                    <Link target='_blank' to={"../register/idea%20smiths"}><button className="btn">Register</button></Link>
+                                                    <Link target='_blank' to={"../rulebook/idea%20smiths"}><button className="btn">Rule Book</button></Link>
                                                 </div>
                                             </div>
                                         </div>

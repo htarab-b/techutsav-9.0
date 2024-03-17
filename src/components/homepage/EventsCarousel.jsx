@@ -55,15 +55,15 @@ export default function App() {
                 modules={[Autoplay, EffectCoverflow]}
                 className="mySwiper"
               >
-                <Link to={"./register/techno%20strom"}><SwiperSlide className='technostrom'>TECHNO STROM</SwiperSlide></Link>
-                <Link to={"./register/data%20dynamo"}><SwiperSlide className='datadynamo'>DATA DYNAMO</SwiperSlide></Link>
-                <Link to={"./register/infographics"}><SwiperSlide className='infographics'>INFOGRAPHICS</SwiperSlide></Link>
-                <Link to={"./register/pixellno"}><SwiperSlide className='pixellno'>PIXELLNO</SwiperSlide></Link>
-                <Link to={"./register/buss%20burst"}><SwiperSlide className='bussburst'>Idea Smiths </SwiperSlide></Link>
-                <Link to={"./register/byte%20battle"}><SwiperSlide className='bytebattle'>BYTE BATTLE</SwiperSlide></Link>
-                <Link to={"./register/cyber%20giggles"}><SwiperSlide className='cybergiggles'>CYBER GIGGLES</SwiperSlide></Link>
-                <Link to={"./register/virtual%20silhouette"}><SwiperSlide className='virtualsilhouette'>Creative Clash</SwiperSlide></Link>
-                <Link to={"./register/bug%20busters"}><SwiperSlide className='bugbusters'>BUG BUSTERS</SwiperSlide></Link>
+               <SwiperSlide className='technostrom'>TECHNO STROM</SwiperSlide>
+               <SwiperSlide className='datadynamo'>DATA DYNAMO</SwiperSlide>
+               <SwiperSlide className='infographics'>INFOGRAPHICS</SwiperSlide>
+               <SwiperSlide className='pixellno'>PIXELLNO</SwiperSlide>
+               <SwiperSlide className='bussburst'>Idea Smiths</SwiperSlide>
+               <SwiperSlide className='bytebattle'>BYTE BATTLE</SwiperSlide>
+               <SwiperSlide className='cybergiggles'>CYBER GIGGLES</SwiperSlide>
+               <SwiperSlide className='virtualsilhouette'>Creative Clash</SwiperSlide>
+               <SwiperSlide className='bugbusters'>BUG BUSTERS</SwiperSlide>
               </Swiper>
             </Col>
           </Row>
