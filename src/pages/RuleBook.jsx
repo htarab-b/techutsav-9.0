@@ -42,23 +42,23 @@ const RuleBook = () => {
     generatedCode = (
         <p>
             <li>Individual participants or two as a team.</li>
-            <li>The poster must be based on any of the topic given below.</li>
+            <li>The poster must be based on any of the topics given below.</li>
             <li>Innovation in the presentation will be given due weightage.</li>
-            <li>Full Chart paper should be used.</li>
+            <li>A full chart paper should be used (70*56cm)</li>
             <li>Posters can be digital or hand-made.</li>
             <li>Participants are expected to explain their posters for 3-4 minutes.</li>
             <li>There can be only one poster per team on any of the given topics.</li>
             <li>Plagiarism is strictly prohibited.</li>
-            <li>Content can be in the form of text or visuals or combination of both.</li>
+            <li>Content can be in the form of text, visuals, or a combination of both.</li>
+            <li>The Poster will be judged based on the following criteria: creativity, message, presentation, originality and visual impact.</li>
+            <li>Your name,registration number,department,year,section and college name should be mentioned in the poster.</li>
+            <li>Your original creation should be submitted at the event.</li>
             <br />
             <strong className='highlights'>Topics</strong>
               <ul>
-                <li>Cultural Diversity.</li>
-                <li>Heros among us.</li>
-                <li>Empowerment & Equality.</li>
-                <li>Technological evolution from the middle ages to the present.</li>
-                <li>Virtual/Augmented Reality.</li>
-                <li>Sixth sense.</li>
+                <li>Quantum Computing</li>
+                <li>Sixth sense</li>
+                <li>Digital twins</li>
               </ul>
         </p>
     );
