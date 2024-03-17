@@ -44,7 +44,7 @@ const AboutDept = () => {
               </div>
               <div className="about__dept_flip-card-back">
                 <img src={liveWireLogo} className='livewire' />
-                <p> Livewires</p>
+                <p> LiveWires_</p>
                 <div className='about__dept_social_icons'>
                   <a target='_blank' href='https://www.instagram.com/live.wires_'><AiFillInstagram /></a>
                   <a target='_blank' href='mailto:livewires2k20@gmail.com'><AiFillMail /></a>
