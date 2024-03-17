@@ -90,10 +90,10 @@ const RuleBook = () => {
             <ul>
                 <li>Selling your product is the event.</li>
                 <li>Maximum of 5 members per team.</li>
-                <li>10 minutes of Preparation Time 5 minutes on Stage.</li>
+                <li>10 minutes of Preparation Time and 5 minutes on Stage.</li>
                 <li>Must present the ad with full confidence and must have articulate communication.</li>
                 <li>Reproducing old advertisements are not encouraged.</li>
-                <li>No electronic gadgets must be used for preparation.</li>
+                <li>Gadgets can only be used for obtaining information about the product not for obtaining the ad content.</li>
             </ul>
         </p>
     );
@@ -143,12 +143,14 @@ const RuleBook = () => {
     generatedCode = (
         <p>
             <ul>
-                <li>Only entries relevant to the topic will be considered. Topic will be given on spot.</li>
-                <li>Only one entry per candidate.</li>
-                <li>30 minutes for creating and posting the meme.</li>
-                <li>The provided topic must be conveyed in a single meme. The number of pictures within the meme is up to you.</li>
+                <li>Solo event (each participants can create and post one meme).</li>
+                <li>Topic will be given on the spot and time duration is 30 minutes to understand,create and post.</li>
+                <li>Content adherance to the the given topic is important.</li>
+                <li>The provided topic must be conveyed in a single meme. The number of pictures within the meme is up to the participants.</li>
+                <li>Vulgarity in any form through the contents in meme is strictly prohibited.</li>
+                <li>Images and text in meme created should not promote any kind of unhealthy activities among students.</li>
                 <li>Contestants are requested to attach an identification watermark with their entry.</li>
-                <li>Plagiarism of any kind will not be tolerated.</li>
+                <li>Plagiarism of any kind will not be accepted.</li>
                 <li>If a meme has abusive or mature content, it will not be considered as a valid entry.</li>
 
             </ul>
