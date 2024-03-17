@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import heroVideoMp4 from '../../assets/tu-bg.mp4';
-import heroVideoWebm from '../../assets/tu-bg.webm';
 import posterImage from '../../assets/tu-bg.jpg';
 import '../../css/Header.css';
 
@@ -48,8 +47,6 @@ const HeroSection = () => {
                 poster={posterImage} >
 
                 <source src={heroVideoMp4} type='video/mp4' />
-                <source src={heroVideoWebm} type='video/webm' />
-                <source src={heroVideoWebm} type='video/webm' />
                 Your browser does not support the video tag.
             </video>
         </div>
