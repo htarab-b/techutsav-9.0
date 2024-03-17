@@ -4,14 +4,14 @@
 
 .swiper-slide {
   visibility: hidden;
-  aspect-ratio: 4/3;
+  aspect-ratio: 16/10;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   font-size: 2rem;
-  background: var(--accent);
-  color: white;
+}
+
+.swiper-slide img{
   border-radius: 10px;
 }
 

@@ -2,7 +2,8 @@ import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import infernoLogo from '../../assets/inferno_logo.png'
 import liveWireLogo from '../../assets/LW_logo.png'
-import { AiFillMail, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillMail, AiFillInstagram, AiFillLinkedin  } from "react-icons/ai";
+import { RiTwitterXFill } from "react-icons/ri";
 
 import '../../css/AboutDept.css'
 
@@ -45,9 +46,9 @@ const AboutDept = () => {
                 <img src={liveWireLogo} className='livewire' />
                 <p> Livewires</p>
                 <div className='about__dept_social_icons'>
-                  <a target='_blank' href='https://www.instagram.com/livewires.srm/'><AiFillInstagram /></a>
-                  <a target='_blank' href=''><AiFillMail /></a>
-                  <a target='_blank' href='https://www.linkedin.com/in/livewires-club-472178287/'><AiFillLinkedin /></a>
+                  <a target='_blank' href='https://www.instagram.com/live.wires_'><AiFillInstagram /></a>
+                  <a target='_blank' href='mailto:livewires2k20@gmail.com'><AiFillMail /></a>
+                  <a target='_blank' href='https://x.com/LiveWires_2k23?t=SfRtFlFjs0MBaof2ypydhQ&s=09'><RiTwitterXFill  /></a>
                 </div>
               </div>
             </div>

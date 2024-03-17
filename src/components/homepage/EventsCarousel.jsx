@@ -12,6 +12,17 @@ import { Autoplay, EffectCoverflow } from 'swiper/modules';
 
 import '../../css/EventCarousel.css'
 
+
+import bytebattle from '../../assets/carousel/bytebattle.png'
+import bugbusters from '../../assets/carousel/bugbusters.jpg'
+import creativeclash from '../../assets/carousel/creativeclash.jpg'
+import cybergiggles from '../../assets/carousel/cybergiggles.jpg'
+import datadynamo from '../../assets/carousel/datadynamo.png'
+import ideasmiths from '../../assets/carousel/ideasmiths.png'
+import infographics from '../../assets/carousel/infographics.png'
+import pixellno from '../../assets/carousel/pixellno.png'
+import technostrom from '../../assets/carousel/technostrom.png'
+
 export default function App() {
   return (
     <>
@@ -55,15 +66,15 @@ export default function App() {
                 modules={[Autoplay, EffectCoverflow]}
                 className="mySwiper"
               >
-               <SwiperSlide className='technostrom'>TECHNO STROM</SwiperSlide>
-               <SwiperSlide className='datadynamo'>DATA DYNAMO</SwiperSlide>
-               <SwiperSlide className='infographics'>INFOGRAPHICS</SwiperSlide>
-               <SwiperSlide className='pixellno'>PIXELLNO</SwiperSlide>
-               <SwiperSlide className='bussburst'>Idea Smiths</SwiperSlide>
-               <SwiperSlide className='bytebattle'>BYTE BATTLE</SwiperSlide>
-               <SwiperSlide className='cybergiggles'>CYBER GIGGLES</SwiperSlide>
-               <SwiperSlide className='virtualsilhouette'>Creative Clash</SwiperSlide>
-               <SwiperSlide className='bugbusters'>BUG BUSTERS</SwiperSlide>
+                <SwiperSlide><img src={bytebattle} /></SwiperSlide>
+                <SwiperSlide><img src={datadynamo} /></SwiperSlide>
+                <SwiperSlide><img src={pixellno} /></SwiperSlide>
+                <SwiperSlide><img src={ideasmiths} /></SwiperSlide>
+                <SwiperSlide><img src={technostrom} /></SwiperSlide>
+                <SwiperSlide><img src={cybergiggles} /></SwiperSlide>
+                <SwiperSlide><img src={infographics} /></SwiperSlide>
+                <SwiperSlide><img src={creativeclash} /></SwiperSlide>
+                <SwiperSlide><img src={bugbusters} /></SwiperSlide>
               </Swiper>
             </Col>
           </Row>
