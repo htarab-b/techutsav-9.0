@@ -31,9 +31,12 @@ const RuleBook = () => {
             <br />
             <strong className='highlights'>Topics</strong>
               <ul>
-                <li>Growth of Virtual Reality. i.e Apple Vision Pro, Meta quest, Oculus.</li>
-                <li>Print Your Dreams: The future of 3D manufacturing.</li>
-                <li>Does ChatGPT write the fall of  Google's Empire, Chapter 1 if yes how? If no explain why.</li>
+                <li>Biometrics, Forensics, Content protection</li>
+                <li>3D image/video processing</li>
+                <li>Explainable AI</li>
+                <li>Robotic Intelligence</li>
+                <li>Sustainable Agriculture</li>
+                <li>You may also present your innovations on other areas of Machine Intelligence and Computer Vision Applications</li>
               </ul>
         </p>
     );
