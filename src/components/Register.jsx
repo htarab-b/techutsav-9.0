@@ -16,8 +16,8 @@ function Register() {
   if (eventName === "data dynamo") {minParticipants = 1 ; maxParticipants = 2}
   if (eventName === "pixellno") {minParticipants = 1 ; maxParticipants = 1}
   if (eventName === "info graphics") {minParticipants = 1 ; maxParticipants = 2}
-  if (eventName === "techno storm") {minParticipants = 2 ; maxParticipants = 2}
-  if (eventName === "bug busters") {minParticipants = 2 ; maxParticipants = 2}
+  if (eventName === "techno strom") {minParticipants = 2 ; maxParticipants = 2}
+  if (eventName === "bug busters") {minParticipants = 1 ; maxParticipants = 2}
   if (eventName === "cyber giggles") {minParticipants = 1 ; maxParticipants = 1}
   if (eventName === "creative clash") {minParticipants = 5 ; maxParticipants = 10}
   if (eventName === "idea smiths") {minParticipants = 1 ; maxParticipants = 5}
