@@ -9,16 +9,14 @@ const RuleBook = () => {
   if (eventName === 'techno strom') {
     generatedCode = (
         <p>
-            <ul>
-                <li>Participants consist of a team of two members.</li>
-                <li>General computer aptitude.</li>
-                <li>Preliminary round - 4 sections with 10 questions each (total duration: 50 minutes).</li>
-                <li>The preliminary round will be conducted in written mode.</li>
-                <li>Participants must carry the required stationary items.</li>
-                <li>The final round will be an on-stage event.</li>
-                <li>Mobile phones are not allowed.</li>
-                <li>The results announced by the organizers are final.</li>
-            </ul>
+          <li>Participants consist of a team of two members.</li>
+          <li>General computer aptitude.</li>
+          <li>Preliminary round - 4 sections with 10 questions each (total duration: 50 minutes).</li>
+          <li>The preliminary round will be conducted in written mode.</li>
+          <li>Participants must carry the required stationary items.</li>
+          <li>The final round will be an on-stage event.</li>
+          <li>Mobile phones are not allowed.</li>
+          <li>The results announced by the organizers are final.</li>
         </p>
     );
   }
@@ -29,7 +27,7 @@ const RuleBook = () => {
             <li>5 minutes for the presentation followed by 1-2 minutes for the viva</li>
             <li>Abstract should not exceed 1 page and paper should not exceed 10 pages.</li>
             <br />
-            <strong className='highlights'>Topics</strong>
+            <strong className='highlights'>Topics:</strong>
               <ul>
                 <li>Biometrics, Forensics, Content protection</li>
                 <li>3D image/video processing</li>
@@ -57,7 +55,7 @@ const RuleBook = () => {
             <li>Your name,registration number,department,year,section and college name should be mentioned in the poster.</li>
             <li>Your original creation should be submitted at the event.</li>
             <br />
-            <strong className='highlights'>Topics</strong>
+            <strong className='highlights'>Topics:</strong>
               <ul>
                 <li>Quantum Computing</li>
                 <li>Sixth sense</li>
@@ -69,44 +67,39 @@ const RuleBook = () => {
   else if (eventName === 'pixellno') {
     generatedCode = (
         <p>
-            <ul>
-                <li>Photos should be originally taken by contestant.</li>
-                <li>No editing of photos is allowed. More than one photo is not entertained. </li>
-                <li>Plagiarism of any kind will not be tolerated. </li>
-                <li>Images will be judged on originality, technical excellence, composition, overall impact and artistic merit. </li>
-                <li>The photos should be mailed to techutsav24@gmail.com.</li>
-                <li>File name should be the participant's name.</li>
-                <li>If submitted photograph has abusive or mature content, it will not be considered as a valid entry.</li>
-                <br /><strong className='highlights'>Topics</strong>
-                <ul>
-                  <li>Architecture photography</li>
-                  <li>Reflections photography</li>
-                  <li>Low light photography</li>
-                </ul>
-            </ul>
+          <li>Photos should be originally taken by contestant.</li>
+          <li>No editing of photos is allowed. More than one photo is not entertained. </li>
+          <li>Plagiarism of any kind will not be tolerated. </li>
+          <li>Images will be judged on originality, technical excellence, composition, overall impact and artistic merit. </li>
+          <li>The photos should be mailed to techutsav24@gmail.com.</li>
+          <li>File name should be the participant's name.</li>
+          <li>If submitted photograph has abusive or mature content, it will not be considered as a valid entry.</li>
+          <br /><strong className='highlights'>Topics:</strong>
+          <ul>
+            <li>Architecture photography</li>
+            <li>Reflections photography</li>
+            <li>Low light photography</li>
+          </ul>
         </p>
     );
   }
   else if (eventName === 'idea smiths') {
     generatedCode = (
         <p>
-            <ul>
-                <li>Selling your product is the event.</li>
-                <li>Maximum of 5 members per team.</li>
-                <li>10 minutes of Preparation Time and 5 minutes on Stage.</li>
-                <li>Must present the ad with full confidence and must have articulate communication.</li>
-                <li>Reproducing old advertisements are not encouraged.</li>
-                <li>Gadgets can only be used for obtaining information about the product not for obtaining the ad content.</li>
-            </ul>
+          <li>Selling your product is the event.</li>
+          <li>Maximum of 5 members per team.</li>
+          <li>10 minutes of Preparation Time and 5 minutes on Stage.</li>
+          <li>Must present the ad with full confidence and must have articulate communication.</li>
+          <li>Reproducing old advertisements are not encouraged.</li>
+          <li>Gadgets can only be used for obtaining information about the product not for obtaining the ad content.</li>
         </p>
     );
   }
   else if (eventName === 'byte battle') {
     generatedCode = (
         <p>
-          <ul>
-            <strong className="highlights">REGISTER FEE: </strong> <br /> <li>Rs.100 for a Team (BGMI and Free fire)</li><li> Rs.50 per participant (Chess)</li> <br />
-            <li><strong className="highlights">BGMI and Free Fire</strong>
+            <strong className="highlights">REGISTER FEE: </strong> <br /> <ul><li>Rs.100 for a Team (BGMI and Free fire)</li><li> Rs.50 per participant (Chess)</li></ul> <br />
+            <strong className="highlights">BGMI and Free Fire</strong>
               <ul>
                 <li>Only one team member is required to fill out the form and pay the Rs. 100 team fee.</li>
                 <li>Participants must arrive on time for the competition.</li>
@@ -122,9 +115,8 @@ const RuleBook = () => {
                 <li>No refunds will be provided.</li>
                 <li>Certificates will only be awarded to the winners and runners-up; no participation certificates for gaming.</li>
               </ul>
-            </li>
             <br />
-            <li><strong className="highlights">Chess</strong>
+            <strong className="highlights">Chess</strong>
               <ul>
                 <li>Chess participants should pay Rs. 50.</li>
                 <li>Timely arrival is mandatory for the competition.</li>
@@ -136,27 +128,21 @@ const RuleBook = () => {
                 <li>No refunds will be issued.</li>
                 <li>Certificates will only be awarded to the winners and runners-up; no participation certificates for gaming.</li>
               </ul>
-            </li>
-          </ul>
-            
         </p>
     );
   }
   else if (eventName === 'cyber giggles') {
     generatedCode = (
         <p>
-            <ul>
-                <li>Solo event (each participants can create and post one meme).</li>
-                <li>Topic will be given on the spot and time duration is 30 minutes to understand,create and post.</li>
-                <li>Content adherance to the the given topic is important.</li>
-                <li>The provided topic must be conveyed in a single meme. The number of pictures within the meme is up to the participants.</li>
-                <li>Vulgarity in any form through the contents in meme is strictly prohibited.</li>
-                <li>Images and text in meme created should not promote any kind of unhealthy activities among students.</li>
-                <li>Contestants are requested to attach an identification watermark with their entry.</li>
-                <li>Plagiarism of any kind will not be accepted.</li>
-                <li>If a meme has abusive or mature content, it will not be considered as a valid entry.</li>
-
-            </ul>
+          <li>Solo event (each participants can create and post one meme).</li>
+          <li>Topic will be given on the spot and time duration is 30 minutes to understand,create and post.</li>
+          <li>Content adherance to the the given topic is important.</li>
+          <li>The provided topic must be conveyed in a single meme. The number of pictures within the meme is up to the participants.</li>
+          <li>Vulgarity in any form through the contents in meme is strictly prohibited.</li>
+          <li>Images and text in meme created should not promote any kind of unhealthy activities among students.</li>
+          <li>Contestants are requested to attach an identification watermark with their entry.</li>
+          <li>Plagiarism of any kind will not be accepted.</li>
+          <li>If a meme has abusive or mature content, it will not be considered as a valid entry.</li>
         </p>
     );
   }
@@ -173,7 +159,7 @@ const RuleBook = () => {
           <li>Props and stage sets are not allowed.</li>
           <li>Judging Criteria - Theme, Creativity, Acting, Coordination, Overall Performance and Audience Response.</li>
           <br />
-          <strong className="highlights">Topics</strong>
+          <strong className="highlights">Topics:</strong>
           <ul>
               <li>Social Engine</li>
               <li>Effects of AI</li>
@@ -185,11 +171,9 @@ const RuleBook = () => {
   else if (eventName === 'bug busters') {
     generatedCode = (
         <p>
-            <ul>
-                <li>Each team can contain a maximum of two members.</li>
-                <li>Participating teams can choose their preferred language for the final round alone among C++, Java, and Python.</li>
-                <li>Prelims will be held to shortlist a selected number of teams for the final round. It may have a mix-up of questions from C++, Java, and Python.</li>
-            </ul>
+          <li>Each team can contain a maximum of two members.</li>
+          <li>Participating teams can choose their preferred language for the final round alone among C++, Java, and Python.</li>
+          <li>Prelims will be held to shortlist a selected number of teams for the final round. It may have a mix-up of questions from C++, Java, and Python.</li>
         </p>
     );
   }
@@ -208,6 +192,21 @@ const RuleBook = () => {
         <div className="rulebookcontent">
           <h1><strong className="highlight">{eventName}</strong> Rule Book</h1>
           <br />
+          <p>
+            <strong className='highlights'>General Rules:</strong></p><p>
+            <li>I.D. cards or bonafide certificates are mandatory for registration.</li>
+            <li>A participant will have to present his/her ID CARD for registration of the event he/she is participating in.</li>
+            <li>Each student is limited to participating in a maximum of five events.</li>
+            <li>The organisers will not take any responsibility for a clash in event timing.</li>
+            <li>Participants in the Byte Battle (gaming) event are restricted from participating in any other events, as the competition takes place from 9:30 AM to 2:30 PM.</li>
+            <li>Students from SRM Institute of Science and Technology - KTR Campus, are not eligible to participate in TechUtsav 9.0.</li>
+            <li>Any team that demonstrates indiscipline or malpractice will be disqualified.</li>
+            <li>Those who fail to register will not be considered thereon.</li>
+            <li>All audio file presentations should be given only on a pen drive.</li>
+            <li>Vulgarity and the offending of religious/political/personal sentiments will not be tolerated.</li>
+          </p>
+          <br />
+          <p><strong className="highlights">{eventName} Rules:</strong></p>
           {generatedCode}
           <Link to={"../events"}><h4> Back to Events </h4></Link>
           <Link to={"../register/"+eventName}><h4> Register for {eventName} </h4></Link>
