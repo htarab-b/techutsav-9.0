@@ -98,7 +98,7 @@ const RuleBook = () => {
   else if (eventName === 'byte battle') {
     generatedCode = (
         <p>
-            <strong className="highlights">REGISTER FEE: </strong> <br /> <ul><li>Rs.200 for a Team (BGMI and Free fire)</li><li> Rs.50 per participant (Chess)</li></ul> <br />
+            <strong className="highlights">REGISTER FEE: </strong> <br /> <ul><li>Rs.100 for a Team (BGMI and Free fire)</li><li> Rs.50 per participant (Chess)</li></ul> <br />
             <strong className="highlights">BGMI and Free Fire</strong>
               <ul>
                 <li>Only one team member is required to fill out the form and pay the Rs. 100 team fee.</li>
